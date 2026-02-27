@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Canonical & Meta (SEO optimized) -->
+  <link rel="canonical" href="https://electrical.six7.lk/contact">
+  <title>Contact Six7 Electrical | Emergency & Service Inquiries Colombo</title>
+  <meta name="description" content="Contact Six7 Electrical for electrical services in Colombo. Emergency: Call +94 75 824 4216. Non-emergency: Use our form, email, or WhatsApp. Fast response guaranteed.">
+  <meta name="keywords" content="contact electrician colombo, six7 electrical contact, electrical service inquiry colombo, commercial electrical quote colombo, emergency electrician phone number">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Contact Six7 Electrical | Colombo Electricians">
+  <meta property="og:description" content="Get in touch with Six7 Electrical for emergency repairs, commercial quotes, or service inquiries. Call, WhatsApp, or email us today.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://electrical.six7.lk/contact">
+  <meta property="og:locale" content="en_LK">
+
+  <!-- Tailwind + Font Awesome -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 (Free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Schema Markup (JSON-LD) - ContactPage, LocalBusiness, FAQPage, BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://electrical.six7.lk/contact",
+        "url": "https://electrical.six7.lk/contact",
+        "name": "Contact Six7 Electrical | Colombo Electricians",
+        "description": "Contact Six7 Electrical for electrical services in Colombo. Emergency: Call +94 75 824 4216. Non-emergency: Use our form, email, or WhatsApp.",
+        "isPartOf": {
+          "@id": "https://electrical.six7.lk/#website"
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://electrical.six7.lk/#organization",
+        "name": "Six7 Electrical",
+        "url": "https://electrical.six7.lk",
+        "telephone": "+94758244216",
+        "email": "electrical@six7.lk",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Colombo",
+          "addressRegion": "Western Province",
+          "addressCountry": "LK"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+94758244216",
+            "contactType": "emergency",
+            "availableLanguage": ["English", "Sinhala", "Tamil"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+94758244216",
+            "contactType": "customer service",
+            "availableLanguage": ["English", "Sinhala", "Tamil"],
+            "hoursAvailable": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+              "opens": "08:00",
+              "closes": "18:00"
+            }
+          },
+          {
+            "@type": "ContactPoint",
+            "email": "electrical@six7.lk",
+            "contactType": "commercial inquiries"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://electrical.six7.lk/contact#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the fastest way to get help for an electrical emergency?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Call our 24/7 emergency line at +94 75 824 4216. This connects you directly to our dispatch team who can assess urgency and send the nearest technician immediately. WhatsApp is also monitored for emergencies but phone calls receive the fastest routing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if my inquiry is an emergency or can wait?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Emergencies include: complete power outage not caused by CEB, burning smell or sparks from outlets, breaker tripping repeatedly, storm or flood damage to electrical systems, or any situation posing immediate fire or electrocution risk. If unsure, call us – we would rather assess and advise than have you wait with a potentially dangerous issue."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I schedule a non-emergency service for a specific date?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. When booking via phone, WhatsApp, or our contact form, indicate your preferred date and time window (morning, afternoon, evening). We will confirm availability within 2 hours during office hours. For urgent non-emergency needs, mention 'priority scheduling' and we will do our best to accommodate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer quotes over the phone or email?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For simple, well-defined services (e.g., outlet installation, fixture replacement), we can provide ball park estimates over the phone. For complex or uncertain-scope work, we provide written quotes after a brief site assessment to ensure accuracy. Commercial projects always receive detailed written quotes after scope definition."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What information should I have ready when I contact you?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For fastest service: your full address or landmark, contact phone number, brief description of the electrical issue or service needed, and preferred contact method. For commercial inquiries: business name, property type, scope description, and timeline expectations."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://electrical.six7.lk/contact#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://electrical.six7.lk/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact Us",
+            "item": "https://electrical.six7.lk/contact"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .circuit-pattern { background-image: radial-gradient(circle at 2px 2px, rgba(232, 106, 33, 0.15) 1px, transparent 0); background-size: 24px 24px; }
+    #mobile-menu-drawer { transition: transform 0.3s ease-in-out; transform: translateX(100%); }
+    #mobile-menu-drawer.open { transform: translateX(0); }
+    body { font-family: 'Public Sans', sans-serif; }
+    html { scroll-behavior: smooth; }
+    .anchor-offset { scroll-margin-top: 80px; }
+    @media (min-width: 768px) { .anchor-offset { scroll-margin-top: 100px; } }
+    .contact-card { transition: all 0.2s ease; }
+    .contact-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); }
+    .emergency-banner { background: linear-gradient(135deg, #e86a21 0%, #c04e0f 100%); }
+  </style>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#0a2642',
+            'primary-deep': '#0a2540',
+            'accent-orange': '#e86a21',
+            'whatsapp-green': '#25D366',
+            'background-light': '#f8f7f6',
+            'background-dark': '#0a2540',
+          },
+          fontFamily: { 'display': ['Public Sans', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display antialiased">
+
+  <!-- Sticky Header -->
+  <header class="sticky top-0 z-40 bg-primary/95 backdrop-blur-md border-b border-slate-700/50 px-4 py-3 flex items-center justify-between">
+    <a href="https://electrical.six7.lk/" class="flex items-center gap-2 hover:opacity-90">
+      <div class="size-8 bg-accent-orange rounded-lg flex items-center justify-center text-white"><i class="fas fa-bolt text-xl"></i></div>
+      <span class="font-black text-lg text-white uppercase">Six7 Electrical</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-white/90">
+      <a href="https://electrical.six7.lk/emergency" class="hover:text-accent-orange transition flex items-center gap-1"><i class="fas fa-exclamation-triangle text-base"></i>Emergency</a>
+      <a href="https://electrical.six7.lk/commercial" class="hover:text-accent-orange transition">Commercial</a>
+      <a href="https://electrical.six7.lk/services" class="hover:text-accent-orange transition">Services</a>
+      <a href="https://electrical.six7.lk/areas" class="hover:text-accent-orange transition">Areas</a>
+      <a href="https://electrical.six7.lk/pricing" class="hover:text-accent-orange transition">Pricing</a>
+      <a href="https://electrical.six7.lk/about" class="hover:text-accent-orange transition">About</a>
+      <a href="https://electrical.six7.lk/contact" class="hover:text-accent-orange transition">Contact</a>
+    </nav>
+    <button id="menuToggleBtn" class="p-2 text-white rounded-full hover:bg-white/10 transition md:hidden"><i class="fas fa-bars text-3xl"></i></button>
+  </header>
+
+  <!-- mobile drawer -->
+  <div id="mobile-menu-drawer" class="fixed top-0 right-0 z-50 h-full w-64 bg-primary-deep dark:bg-slate-900 shadow-2xl border-l border-white/10 p-6 backdrop-blur-xl transition-transform duration-300 ease-in-out translate-x-full">
+    <div class="flex justify-end"><button id="closeDrawerBtn" class="text-white/70 hover:text-white"><i class="fas fa-times text-3xl"></i></button></div>
+    <nav class="mt-8 flex flex-col gap-5 text-white">
+      <a href="https://electrical.six7.lk/emergency" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-exclamation-triangle text-accent-orange"></i> Emergency</a>
+      <a href="https://electrical.six7.lk/commercial" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-briefcase text-accent-orange"></i> Commercial</a>
+      <a href="https://electrical.six7.lk/services" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-tools text-accent-orange"></i> Services</a>
+      <a href="https://electrical.six7.lk/areas" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-map-marker-alt text-accent-orange"></i> Areas</a>
+      <a href="https://electrical.six7.lk/pricing" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-tag text-accent-orange"></i> Pricing</a>
+      <a href="https://electrical.six7.lk/about" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-info-circle text-accent-orange"></i> About</a>
+      <a href="https://electrical.six7.lk/contact" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-envelope text-accent-orange"></i> Contact</a>
+      <div class="pt-6 flex flex-col gap-3">
+        <a href="tel:+94758244216" class="bg-accent-orange w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2"><i class="fas fa-phone-alt"></i> Call now</a>
+        <a href="https://wa.me/94758244216" class="bg-whatsapp-green w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Breadcrumb Navigation -->
+  <div class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 py-2 px-4 text-sm">
+    <div class="max-w-7xl mx-auto">
+      <a href="https://electrical.six7.lk/" class="text-slate-500 hover:text-accent-orange">Home</a>
+      <span class="text-slate-400 mx-2">/</span>
+      <span class="text-accent-orange font-medium">Contact Us</span>
+    </div>
+  </div>
+
+  <main class="w-full mx-auto md:max-w-screen-xl md:px-6 lg:px-8">
+
+    <!-- ========== SECTION 1: HERO SECTION ========== -->
+    <section class="relative bg-primary-deep circuit-pattern overflow-hidden pt-12 pb-16 px-4 md:pt-20 md:pb-24 md:rounded-2xl md:mt-4" aria-label="Contact Six7 Electrical">
+      <div class="relative z-10 max-w-7xl mx-auto text-center md:text-left">
+        <!-- H1 -->
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-white mb-6">
+          Contact Six7 Electrical – <span class="text-accent-orange">We Are Ready to Help</span>
+        </h1>
+        <!-- subheading -->
+        <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto md:mx-0 mb-8 leading-relaxed">
+          Whether you need emergency electrical repair, a quote for commercial work, or have a question about our services – reach out using the method that works best for you.
+        </p>
+        <!-- CTAs - Primary and Secondary -->
+        <div class="flex flex-col sm:flex-row md:flex-wrap gap-4 justify-center md:justify-start mb-8">
+          <a href="tel:+94758244216" class="group bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-accent-orange/30 transition-all w-full sm:w-auto">
+            <i class="fas fa-phone-alt group-hover:animate-pulse"></i>
+            <span>Emergency? Call Now: +94 75 824 4216</span>
+          </a>
+          <a href="#contact-form" class="group bg-white hover:bg-slate-50 text-primary font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-black/10 transition-all w-full sm:w-auto border-2 border-transparent hover:border-slate-200">
+            <i class="fas fa-paper-plane text-primary"></i>
+            <span>Send Us a Message</span>
+          </a>
+          <a href="https://wa.me/94758244216" class="group bg-transparent border-2 border-white/40 hover:border-white text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 transition-all w-full sm:w-auto">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp for Quick Questions</span>
+          </a>
+        </div>
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6 text-white/90 text-sm font-medium">
+          <span class="flex items-center gap-2"><i class="fas fa-clock text-accent-orange"></i> 24/7 Emergency Response</span>
+          <span class="hidden md:block w-px h-4 bg-white/20"></span>
+          <span class="flex items-center gap-2"><i class="fas fa-tachometer-alt text-accent-orange"></i> Average 2-Hour Response for Inquiries</span>
+          <span class="hidden md:block w-px h-4 bg-white/20"></span>
+          <span class="flex items-center gap-2"><i class="fas fa-id-card text-accent-orange"></i> Licensed & Insured</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: EMERGENCY CONTACT BANNER ========== -->
+    <section class="emergency-banner text-white py-6 px-4 md:py-8 rounded-xl shadow-lg my-6 mx-4 md:mx-0" aria-label="Emergency Contact Information">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> For Electrical Emergencies – Call Immediately</h2>
+        <p class="text-lg text-white/90 mb-4 max-w-2xl mx-auto">
+          If you are experiencing an electrical emergency – power outage, burning smell, sparks, breaker tripping, or storm damage – do not wait. Call our 24/7 emergency line now.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-4">
+          <a href="tel:+94758244216" class="bg-white text-accent-orange hover:bg-slate-100 font-bold py-3 px-6 rounded-xl text-lg flex items-center justify-center gap-2 transition">
+            <i class="fas fa-phone-alt"></i> +94 75 824 4216
+          </a>
+          <a href="https://wa.me/94758244216" class="bg-[#25D366] hover:bg-[#20b859] text-white font-bold py-3 px-6 rounded-xl text-lg flex items-center justify-center gap-2 transition">
+            <i class="fab fa-whatsapp"></i> WhatsApp Emergency
+          </a>
+        </div>
+        <p class="text-sm text-white/80"><i class="fas fa-clock mr-1"></i> Average response: 38 minutes across Colombo 01-15</p>
+        <div class="mt-4 bg-red-600/30 p-3 rounded-lg text-sm max-w-2xl mx-auto border border-red-300/30">
+          <i class="fas fa-exclamation-circle mr-2"></i>
+          <span class="font-semibold">Important:</span> For life-threatening emergencies involving fire or electrocution risk, evacuate immediately and call the fire department or emergency services first, then contact us.
+        </div>
+        <p class="mt-3">
+          <a href="https://electrical.six7.lk/emergency" class="text-white underline hover:no-underline text-sm">Learn what qualifies as an electrical emergency →</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: CONTACT METHOD OPTIONS ========== -->
+    <section class="py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="methods-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="methods-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-center text-primary dark:text-white">
+          Choose the Best Way to Reach Us
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 text-center max-w-3xl mx-auto">
+          We offer multiple contact channels to match your preference and urgency level. Select the option that works best for your situation.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <!-- Option 1: Phone Call -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700 contact-card">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center"><i class="fas fa-phone-alt text-accent-orange text-xl"></i></div>
+              <h3 class="font-bold text-xl text-primary dark:text-white">Phone Call</h3>
+            </div>
+            <p class="text-2xl font-black text-accent-orange mb-2">+94 75 824 4216</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3"><span class="font-semibold">Best For:</span> Emergency situations, commercial quote requests, complex project discussions, immediate assistance</p>
+            <p class="text-xs text-slate-500 mb-2"><span class="font-semibold">Availability:</span> 24/7 for emergencies; Office hours for non-emergency</p>
+            <p class="text-xs text-slate-500"><span class="font-semibold">Preparation Tip:</span> Have your address, service type, and brief description ready.</p>
+          </div>
+
+          <!-- Option 2: WhatsApp -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700 contact-card">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center"><i class="fab fa-whatsapp text-accent-orange text-xl"></i></div>
+              <h3 class="font-bold text-xl text-primary dark:text-white">WhatsApp Message</h3>
+            </div>
+            <p class="text-lg font-bold text-accent-orange mb-2">wa.me/94758244216</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3"><span class="font-semibold">Best For:</span> Sending photos of electrical issues, quick service questions, service area confirmations</p>
+            <p class="text-xs text-slate-500 mb-2"><span class="font-semibold">Availability:</span> 24/7 for emergencies; Office hours for general inquiries</p>
+            <p class="text-xs text-slate-500"><span class="font-semibold">Preparation Tip:</span> Include your location pin or address and photos to help us assess urgency.</p>
+          </div>
+
+          <!-- Option 3: Email -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700 contact-card">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center"><i class="fas fa-envelope text-accent-orange text-xl"></i></div>
+              <h3 class="font-bold text-xl text-primary dark:text-white">Email</h3>
+            </div>
+            <p class="text-lg font-bold text-accent-orange mb-2">electrical@six7.lk</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3"><span class="font-semibold">Best For:</span> Commercial project proposals, detailed service descriptions, documentation requests</p>
+            <p class="text-xs text-slate-500 mb-2"><span class="font-semibold">Availability:</span> Monitored during office hours (8 AM - 6 PM, Mon-Sat)</p>
+            <p class="text-xs text-slate-500"><span class="font-semibold">Preparation Tip:</span> Include clear subject line (e.g., "Commercial Quote Request – Office Rewiring").</p>
+          </div>
+
+          <!-- Option 4: Contact Form -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700 contact-card">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center"><i class="fas fa-paper-plane text-accent-orange text-xl"></i></div>
+              <h3 class="font-bold text-xl text-primary dark:text-white">Contact Form</h3>
+            </div>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3"><span class="font-semibold">Best For:</span> Service bookings, general questions, service area confirmations, feedback</p>
+            <p class="text-xs text-slate-500 mb-2"><span class="font-semibold">Availability:</span> Submitted inquiries reviewed during office hours</p>
+            <p class="text-xs text-slate-500"><span class="font-semibold">Preparation Tip:</span> Select the correct inquiry type for faster routing.</p>
+            <a href="#contact-form" class="inline-flex items-center gap-1 text-accent-orange text-sm font-medium mt-2 hover:underline">Jump to form <i class="fas fa-arrow-down"></i></a>
+          </div>
+
+          <!-- Option 5: Visit Office -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2 contact-card">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center"><i class="fas fa-building text-accent-orange text-xl"></i></div>
+              <h3 class="font-bold text-xl text-primary dark:text-white">Visit Our Office (By Appointment Only)</h3>
+            </div>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2"><span class="font-semibold">Address:</span> [Your Physical Address], Colombo, Sri Lanka</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3"><span class="font-semibold">Best For:</span> In-person commercial consultations, contract signings, complex project planning</p>
+            <p class="text-xs text-slate-500 mb-2"><span class="font-semibold">Availability:</span> Monday-Saturday, 9 AM - 5 PM by prior appointment only</p>
+            <p class="text-xs text-slate-500"><span class="font-semibold">Preparation Tip:</span> Bring any relevant documents or plans related to your project.</p>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="#office-hours" class="inline-flex items-center gap-1 text-accent-orange font-medium hover:underline">
+            View our office hours and holiday schedule <i class="fas fa-arrow-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 4: CONTACT FORM WITH INQUIRY TYPE SELECTION ========== -->
+    <section id="contact-form" class="anchor-offset py-12 md:py-16 bg-slate-50 dark:bg-slate-900/20" aria-labelledby="form-heading">
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 id="form-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-center text-primary dark:text-white">
+          Send Us a Message
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 text-center">
+          Fill out the form below for non-emergency inquiries. For emergencies, please call <span class="font-bold text-accent-orange">+94 75 824 4216</span> immediately.
+        </p>
+
+        <div class="bg-white dark:bg-slate-800 p-6 md:p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg">
+          <form action="#" method="POST" class="space-y-5">
+            <!-- Honeypot field (hidden) -->
+            <div class="hidden">
+              <label for="website">Website (leave blank)</label>
+              <input type="text" id="website" name="website" value="">
+            </div>
+
+            <!-- Full Name -->
+            <div>
+              <label for="fullName" class="block text-sm font-medium text-primary dark:text-white mb-1">Full Name <span class="text-accent-orange">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required minlength="2" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+            </div>
+
+            <!-- Contact Phone -->
+            <div>
+              <label for="phone" class="block text-sm font-medium text-primary dark:text-white mb-1">Contact Phone <span class="text-accent-orange">*</span></label>
+              <div class="flex">
+                <span class="inline-flex items-center px-3 rounded-l-xl border border-r-0 border-slate-300 dark:border-slate-600 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300">+94</span>
+                <input type="tel" id="phone" name="phone" placeholder="7X XXX XXXX" required pattern="[0-9]{9}" class="w-full px-4 py-3 rounded-r-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              </div>
+              <p class="text-xs text-slate-500 mt-1">Sri Lankan mobile number (9 digits)</p>
+            </div>
+
+            <!-- Email Address -->
+            <div>
+              <label for="email" class="block text-sm font-medium text-primary dark:text-white mb-1">Email Address <span class="text-accent-orange">*</span></label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+            </div>
+
+            <!-- Service Address -->
+            <div>
+              <label for="address" class="block text-sm font-medium text-primary dark:text-white mb-1">Service Address <span class="text-accent-orange">*</span></label>
+              <input type="text" id="address" name="address" placeholder="Your address or nearest landmark in Colombo" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <p class="text-xs text-slate-500 mt-1">Include postal code or Colombo district number if known (e.g., Colombo 07)</p>
+            </div>
+
+            <!-- Inquiry Type -->
+            <div>
+              <label for="inquiryType" class="block text-sm font-medium text-primary dark:text-white mb-1">Inquiry Type <span class="text-accent-orange">*</span></label>
+              <select id="inquiryType" name="inquiryType" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <option value="">-- Select inquiry type --</option>
+                <option value="emergency">Emergency Electrical Repair</option>
+                <option value="residential">Residential Service Booking</option>
+                <option value="commercial">Commercial Quote Request</option>
+                <option value="technology">Solar/EV/Smart Home Consultation</option>
+                <option value="area">Service Area Confirmation</option>
+                <option value="general">General Question</option>
+                <option value="feedback">Feedback or Complaint</option>
+              </select>
+            </div>
+
+            <!-- Service Needed (Conditional - Residential) -->
+            <div id="residentialServices" class="hidden">
+              <label for="residentialType" class="block text-sm font-medium text-primary dark:text-white mb-1">Residential Service Needed</label>
+              <select id="residentialType" name="residentialType" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <option value="">-- Select service --</option>
+                <option value="wiring">House Wiring/Rewiring</option>
+                <option value="outlets">Outlet/Switch Installation</option>
+                <option value="lighting">Lighting Upgrades</option>
+                <option value="inspection">Safety Inspection</option>
+                <option value="other">Other (describe below)</option>
+              </select>
+            </div>
+
+            <!-- Service Needed (Conditional - Commercial) -->
+            <div id="commercialServices" class="hidden">
+              <label for="commercialType" class="block text-sm font-medium text-primary dark:text-white mb-1">Commercial Service Needed</label>
+              <select id="commercialType" name="commercialType" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <option value="">-- Select service --</option>
+                <option value="office">Office Rewiring</option>
+                <option value="retail">Retail Fit-out</option>
+                <option value="warehouse">Warehouse Lighting</option>
+                <option value="maintenance">Maintenance Contract</option>
+                <option value="other">Other (describe below)</option>
+              </select>
+            </div>
+
+            <!-- Service Needed (Conditional - Technology) -->
+            <div id="technologyServices" class="hidden">
+              <label for="technologyType" class="block text-sm font-medium text-primary dark:text-white mb-1">Technology Service Needed</label>
+              <select id="technologyType" name="technologyType" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <option value="">-- Select service --</option>
+                <option value="solar">Solar Installation</option>
+                <option value="ev">EV Charger</option>
+                <option value="smart">Smart Home</option>
+                <option value="battery">Battery Backup</option>
+                <option value="other">Other (describe below)</option>
+              </select>
+            </div>
+
+            <!-- Preferred Contact Method -->
+            <div>
+              <label class="block text-sm font-medium text-primary dark:text-white mb-2">Preferred Contact Method</label>
+              <div class="flex flex-wrap gap-4">
+                <label class="flex items-center gap-2">
+                  <input type="radio" name="contactMethod" value="phone" checked class="text-accent-orange focus:ring-accent-orange"> Phone Call
+                </label>
+                <label class="flex items-center gap-2">
+                  <input type="radio" name="contactMethod" value="whatsapp" class="text-accent-orange focus:ring-accent-orange"> WhatsApp
+                </label>
+                <label class="flex items-center gap-2">
+                  <input type="radio" name="contactMethod" value="email" class="text-accent-orange focus:ring-accent-orange"> Email
+                </label>
+              </div>
+            </div>
+
+            <!-- Preferred Date/Time (Non-emergency) -->
+            <div>
+              <label class="block text-sm font-medium text-primary dark:text-white mb-1">Preferred Service Date/Time (for non-emergency)</label>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <input type="date" id="preferredDate" name="preferredDate" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <select id="preferredTime" name="preferredTime" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                  <option value="">-- Select time window --</option>
+                  <option value="morning">Morning (8 AM - 12 PM)</option>
+                  <option value="afternoon">Afternoon (12 PM - 5 PM)</option>
+                  <option value="evening">Evening (5 PM - 8 PM)</option>
+                </select>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">We will confirm availability within 2 hours during office hours.</p>
+            </div>
+
+            <!-- Message -->
+            <div>
+              <label for="message" class="block text-sm font-medium text-primary dark:text-white mb-1">Message/Additional Details</label>
+              <textarea id="message" name="message" rows="4" placeholder="Briefly describe your electrical need, any symptoms, or project details. For emergencies, please call instead." maxlength="500" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange"></textarea>
+              <p class="text-xs text-slate-500 mt-1"><span id="charCount">0</span>/500 characters</p>
+            </div>
+
+            <!-- Consent Checkbox -->
+            <div class="flex items-start gap-3">
+              <input type="checkbox" id="consent" name="consent" required class="mt-1 text-accent-orange focus:ring-accent-orange">
+              <label for="consent" class="text-sm text-slate-600 dark:text-slate-400">
+                I agree to the <a href="https://electrical.six7.lk/terms" class="text-accent-orange hover:underline">Terms of Service</a> and <a href="https://electrical.six7.lk/privacy" class="text-accent-orange hover:underline">Privacy Policy</a> and consent to be contacted regarding my inquiry.
+              </label>
+            </div>
+
+            <!-- reCAPTCHA notice -->
+            <p class="text-xs text-slate-400">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+
+            <!-- Submit Button -->
+            <div class="pt-2">
+              <button type="submit" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-6 rounded-xl text-lg transition shadow-lg shadow-accent-orange/30">
+                Send Message <i class="fas fa-paper-plane ml-2"></i>
+              </button>
+            </div>
+
+            <!-- Success Message (hidden by default) -->
+            <div id="successMessage" class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-xl text-sm mt-4">
+              <i class="fas fa-check-circle mr-2"></i> Thank you! Your inquiry has been received. We will respond within 2 hours during office hours. For emergencies, call +94 75 824 4216 immediately.
+            </div>
+          </form>
+
+          <!-- Form footer note -->
+          <p class="text-xs text-center text-slate-400 mt-4">
+            <i class="fas fa-shield-alt text-accent-orange mr-1"></i> Your information is secure and never shared with third parties.
+            <a href="https://electrical.six7.lk/terms" class="text-accent-orange hover:underline">View Terms</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 5: COMMERCIAL INQUIRY SECTION ========== -->
+    <section class="py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="commercial-inquiry-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="commercial-inquiry-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-center text-primary dark:text-white">
+          Commercial Electrical Inquiries
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 text-center max-w-3xl mx-auto">
+          For businesses, property managers, and commercial projects, our dedicated commercial team provides customized quotes and project coordination.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <!-- Commercial Contact Options -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-lg text-primary dark:text-white mb-4">Commercial Contact Options</h3>
+            <ul class="space-y-3 text-sm">
+              <li class="flex items-center gap-2"><i class="fas fa-envelope text-accent-orange w-5"></i> <span><span class="font-medium">Email:</span> <a href="mailto:electrical@six7.lk" class="text-accent-orange">electrical@six7.lk</a> (include "Commercial Inquiry" in subject line)</span></li>
+              <li class="flex items-center gap-2"><i class="fas fa-phone text-accent-orange w-5"></i> <span><span class="font-medium">Direct Phone:</span> <a href="tel:+94758244216" class="text-accent-orange">+94 75 824 4216</a> (ask for commercial coordinator)</span></li>
+              <li class="flex items-center gap-2"><i class="fab fa-whatsapp text-accent-orange w-5"></i> <span><span class="font-medium">WhatsApp Business:</span> <a href="https://wa.me/94758244216" class="text-accent-orange">wa.me/94758244216</a> (mention "Commercial" in first message)</span></li>
+            </ul>
+          </div>
+
+          <!-- Information to Include -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-lg text-primary dark:text-white mb-4">Information to Include for Faster Quote</h3>
+            <ul class="space-y-2 text-sm">
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Business name and contact person</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Service address and property type (office, retail, warehouse, etc.)</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Scope of work or project description</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Preferred timeline or deadline</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Any existing electrical documentation or plans</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Commercial Response Commitment -->
+        <div class="bg-primary text-white p-6 rounded-xl text-center md:text-left md:flex md:items-center md:justify-between gap-6">
+          <div>
+            <h3 class="font-bold text-xl mb-2">Commercial Response Commitment</h3>
+            <ul class="text-sm space-y-1">
+              <li><i class="fas fa-check text-accent-orange mr-2"></i> Initial response within 2 business hours during office hours</li>
+              <li><i class="fas fa-check text-accent-orange mr-2"></i> Site assessment within 1-3 business days for qualified projects</li>
+              <li><i class="fas fa-check text-accent-orange mr-2"></i> Written quote within 2 business days after site assessment</li>
+              <li><i class="fas fa-check text-accent-orange mr-2"></i> Dedicated project coordinator for projects over LKR 50,000</li>
+            </ul>
+          </div>
+          <a href="https://electrical.six7.lk/commercial" class="mt-4 md:mt-0 inline-block bg-white text-primary hover:bg-slate-100 font-bold py-3 px-6 rounded-xl transition whitespace-nowrap">
+            Learn About Commercial Services <i class="fas fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 6: SERVICE AREA CONFIRMATION TOOL ========== -->
+    <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-900/20" aria-labelledby="area-confirm-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="area-confirm-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-center text-primary dark:text-white">
+          Confirm We Serve Your Location
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 text-center max-w-3xl mx-auto">
+          Not sure if we cover your address? Use this quick tool or contact us directly for instant confirmation.
+        </p>
+
+        <div class="max-w-xl mx-auto bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700 mb-8">
+          <div class="mb-4">
+            <label for="areaSelect" class="block text-sm font-medium text-primary dark:text-white mb-2">Select your area:</label>
+            <select id="areaSelect" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <option value="">-- Select an area --</option>
+              <optgroup label="Colombo Postal Districts">
+                <option value="colombo-01">Colombo 01 (Fort)</option>
+                <option value="colombo-02">Colombo 02 (Slave Island)</option>
+                <option value="colombo-03">Colombo 03 (Kollupitiya)</option>
+                <option value="colombo-04">Colombo 04 (Bambalapitiya)</option>
+                <option value="colombo-05">Colombo 05 (Havelock Town)</option>
+                <option value="colombo-06">Colombo 06 (Wellawatte)</option>
+                <option value="colombo-07">Colombo 07 (Cinnamon Gardens)</option>
+                <option value="colombo-08">Colombo 08 (Borella)</option>
+                <option value="colombo-09">Colombo 09 (Dematagoda)</option>
+                <option value="colombo-10">Colombo 10 (Maradana)</option>
+                <option value="colombo-11">Colombo 11 (Pettah)</option>
+                <option value="colombo-12">Colombo 12 (Kotahena)</option>
+                <option value="colombo-13">Colombo 13 (Bloemendhal)</option>
+                <option value="colombo-14">Colombo 14 (Grandpass)</option>
+                <option value="colombo-15">Colombo 15 (Kotahena North)</option>
+              </optgroup>
+              <optgroup label="Key Suburbs">
+                <option value="rajagiriya">Rajagiriya</option>
+                <option value="nugegoda">Nugegoda</option>
+                <option value="battaramulla">Battaramulla</option>
+                <option value="dehiwala">Dehiwala</option>
+                <option value="mount-lavinia">Mount Lavinia</option>
+                <option value="kirulapone">Kirulapone</option>
+                <option value="narahenpita">Narahenpita</option>
+                <option value="malabe">Malabe</option>
+                <option value="maharagama">Maharagama</option>
+              </optgroup>
+              <optgroup label="Other Areas">
+                <option value="gampaha">Gampaha District</option>
+                <option value="kalutara">Kalutara District</option>
+                <option value="other">Other (please specify below)</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <button id="checkCoverageBtn" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-3 px-6 rounded-xl transition mb-4">
+            Check Coverage
+          </button>
+
+          <!-- Coverage Result (hidden by default) -->
+          <div id="coverageResult" class="hidden p-4 rounded-xl border text-sm">
+            <!-- Content will be populated by JavaScript -->
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+          <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700">
+            <i class="fas fa-phone-alt text-accent-orange text-xl mb-2"></i>
+            <p class="font-medium">Call for instant confirmation</p>
+            <p class="text-accent-orange font-bold">+94 75 824 4216</p>
+          </div>
+          <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700">
+            <i class="fab fa-whatsapp text-accent-orange text-xl mb-2"></i>
+            <p class="font-medium">Send location pin via WhatsApp</p>
+            <p class="text-accent-orange font-bold">wa.me/94758244216</p>
+          </div>
+          <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700">
+            <i class="fas fa-envelope text-accent-orange text-xl mb-2"></i>
+            <p class="font-medium">Email address for area check</p>
+            <p class="text-accent-orange font-bold">electrical@six7.lk</p>
+          </div>
+        </div>
+
+        <p class="text-center mt-6">
+          <a href="https://electrical.six7.lk/areas" class="inline-flex items-center gap-1 text-accent-orange font-medium hover:underline">
+            View complete service area map and coverage details <i class="fas fa-arrow-right"></i>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 7: OFFICE HOURS AND LOCATION ========== -->
+    <section id="office-hours" class="anchor-offset py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="hours-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="hours-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-center text-primary dark:text-white">
+          Office Hours and Location
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 text-center max-w-3xl mx-auto">
+          Our dispatch team is available 24/7 for emergencies. Office staff handle non-emergency inquiries during the hours below.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <!-- Emergency Dispatch -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-bolt text-accent-orange"></i></div>
+              <h3 class="font-bold text-xl text-primary dark:text-white">Emergency Dispatch</h3>
+            </div>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3"><span class="font-semibold">Availability:</span> 24 hours a day, 7 days a week, 365 days a year</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2"><span class="font-semibold">Contact:</span> <a href="tel:+94758244216" class="text-accent-orange font-bold">+94 75 824 4216</a> or <a href="https://wa.me/94758244216" class="text-accent-orange font-bold">WhatsApp</a></p>
+            <p class="text-sm text-slate-600 dark:text-slate-400"><span class="font-semibold">Response Target:</span> Average 38 minutes across Colombo 01-15</p>
+          </div>
+
+          <!-- Office Hours -->
+          <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-clock text-accent-orange"></i></div>
+              <h3 class="font-bold text-xl text-primary dark:text-white">Office Hours (Non-Emergency)</h3>
+            </div>
+            <ul class="space-y-2 text-sm">
+              <li class="flex justify-between"><span>Monday - Friday:</span> <span class="font-bold">8:00 AM - 6:00 PM</span></li>
+              <li class="flex justify-between"><span>Saturday:</span> <span class="font-bold">8:00 AM - 2:00 PM</span></li>
+              <li class="flex justify-between"><span>Sunday:</span> <span class="font-bold text-amber-600">Closed (emergency only)</span></li>
+              <li class="flex justify-between"><span>Public Holidays:</span> <span class="font-bold text-amber-600">Emergency dispatch only</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Physical Location -->
+        <div class="bg-primary text-white p-6 rounded-xl mb-4">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+              <h3 class="font-bold text-xl mb-2 flex items-center gap-2"><i class="fas fa-map-marker-alt text-accent-orange"></i> Physical Location (By Appointment Only)</h3>
+              <p class="text-white/90 mb-1">[Your Full Address], Colombo, Sri Lanka</p>
+              <p class="text-sm text-white/80"><i class="fas fa-info-circle mr-1"></i> We are a mobile-first service with technicians dispatched from multiple locations. Office visits are by appointment only for commercial consultations and contract signings.</p>
+            </div>
+            <a href="#" class="bg-white text-primary hover:bg-slate-100 font-bold py-2 px-4 rounded-lg text-sm whitespace-nowrap inline-flex items-center gap-2">
+              <i class="fas fa-map-marked-alt"></i> Get Directions
+            </a>
+          </div>
+        </div>
+
+        <p class="text-center text-sm text-slate-500">
+          Holiday schedule posted on our website and social media in advance. Emergency services continue uninterrupted.
+        </p>
+
+        <div class="text-center mt-4">
+          <a href="https://electrical.six7.lk/areas" class="inline-flex items-center gap-1 text-accent-orange font-medium hover:underline">
+            View our service areas and team locations <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 8: RESPONSE TIME EXPECTATIONS ========== -->
+    <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-900/20" aria-labelledby="response-time-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="response-time-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-center text-primary dark:text-white">
+          When to Expect a Response
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 text-center max-w-3xl mx-auto">
+          We value your time and strive to respond promptly to all inquiries. Here is what you can expect based on your contact method and inquiry type.
+        </p>
+
+        <!-- Response Time Table -->
+        <div class="overflow-x-auto mb-8">
+          <table class="min-w-full bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+            <thead class="bg-slate-100 dark:bg-slate-700">
+              <tr>
+                <th class="px-4 py-3 text-left text-sm font-bold text-primary dark:text-white">Inquiry Type</th>
+                <th class="px-4 py-3 text-left text-sm font-bold text-primary dark:text-white">Contact Method</th>
+                <th class="px-4 py-3 text-left text-sm font-bold text-primary dark:text-white">Expected Response Time</th>
+                <th class="px-4 py-3 text-left text-sm font-bold text-primary dark:text-white">Notes</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+              <tr>
+                <td class="px-4 py-3 text-sm">Emergency Electrical</td>
+                <td class="px-4 py-3 text-sm">Phone or WhatsApp</td>
+                <td class="px-4 py-3 text-sm text-green-600 font-medium">Immediate to 10 min</td>
+                <td class="px-4 py-3 text-sm">Dispatch begins immediately; ETA provided</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-sm">Emergency Electrical</td>
+                <td class="px-4 py-3 text-sm">Contact Form</td>
+                <td class="px-4 py-3 text-sm text-amber-600">Not recommended</td>
+                <td class="px-4 py-3 text-sm">Use phone or WhatsApp for true emergencies</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-sm">Commercial Quote</td>
+                <td class="px-4 py-3 text-sm">Phone (office hours)</td>
+                <td class="px-4 py-3 text-sm text-green-600">Immediate or callback ≤2h</td>
+                <td class="px-4 py-3 text-sm">Ask for commercial coordinator</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-sm">Commercial Quote</td>
+                <td class="px-4 py-3 text-sm">Email or Form</td>
+                <td class="px-4 py-3 text-sm">Within 2 business hours</td>
+                <td class="px-4 py-3 text-sm">Include project details for faster routing</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-sm">Residential Booking</td>
+                <td class="px-4 py-3 text-sm">Phone, WhatsApp, Form</td>
+                <td class="px-4 py-3 text-sm">Within 2 hours (office)</td>
+                <td class="px-4 py-3 text-sm">Next business day for after-hours</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-sm">Service Area Check</td>
+                <td class="px-4 py-3 text-sm">Phone or WhatsApp</td>
+                <td class="px-4 py-3 text-sm">Immediate to 30 min</td>
+                <td class="px-4 py-3 text-sm">Form submissions reviewed during office hours</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-sm">General Question</td>
+                <td class="px-4 py-3 text-sm">Email or Form</td>
+                <td class="px-4 py-3 text-sm">Within 4 business hours</td>
+                <td class="px-4 py-3 text-sm">Complex questions may require research</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-sm">Feedback or Complaint</td>
+                <td class="px-4 py-3 text-sm">Email or Form</td>
+                <td class="px-4 py-3 text-sm">Within 1 business day</td>
+                <td class="px-4 py-3 text-sm">Escalated to management</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-primary dark:text-white mb-2 flex items-center gap-2"><i class="fas fa-exclamation-triangle text-accent-orange"></i> Factors That May Affect Response Time</h3>
+            <ul class="space-y-1 text-sm text-slate-600 dark:text-slate-400">
+              <li class="flex gap-2"><i class="fas fa-circle text-accent-orange text-[8px] mt-1.5"></i> High call volume during peak emergency periods</li>
+              <li class="flex gap-2"><i class="fas fa-circle text-accent-orange text-[8px] mt-1.5"></i> Public holidays and weekends (office staff only)</li>
+              <li class="flex gap-2"><i class="fas fa-circle text-accent-orange text-[8px] mt-1.5"></i> Complexity of inquiry requiring research</li>
+              <li class="flex gap-2"><i class="fas fa-circle text-accent-orange text-[8px] mt-1.5"></i> Incomplete information requiring follow-up</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-primary dark:text-white mb-2 flex items-center gap-2"><i class="fas fa-check-circle text-accent-orange"></i> Our Commitment</h3>
+            <ul class="space-y-1 text-sm text-slate-600 dark:text-slate-400">
+              <li class="flex gap-2"><i class="fas fa-check text-green-500"></i> If we anticipate a delay, we send acknowledgment with updated timeline</li>
+              <li class="flex gap-2"><i class="fas fa-check text-green-500"></i> Emergency inquiries always receive priority</li>
+              <li class="flex gap-2"><i class="fas fa-check text-green-500"></i> Commercial inquiries marked urgent receive expedited handling</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-center mt-6">
+          <a href="https://electrical.six7.lk/emergency#process" class="inline-flex items-center gap-1 text-accent-orange font-medium hover:underline">
+            Learn about our emergency response process <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 9: CONTACT FAQ ========== -->
+    <section class="py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="faq-heading">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 id="faq-heading" class="text-2xl md:text-3xl font-black text-center mb-10 text-primary dark:text-white">
+          Frequently Asked Questions – Contacting Us
+        </h2>
+
+        <div class="space-y-4">
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              What is the fastest way to get help for an electrical emergency?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Call our 24/7 emergency line at +94 75 824 4216. This connects you directly to our dispatch team who can assess urgency and send the nearest technician immediately. WhatsApp is also monitored for emergencies but phone calls receive the fastest routing.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              How do I know if my inquiry is an emergency or can wait?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Emergencies include: complete power outage not caused by CEB, burning smell or sparks from outlets, breaker tripping repeatedly, storm or flood damage to electrical systems, or any situation posing immediate fire or electrocution risk. If unsure, call us – we would rather assess and advise than have you wait with a potentially dangerous issue.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              Can I schedule a non-emergency service for a specific date?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Yes. When booking via phone, WhatsApp, or our contact form, indicate your preferred date and time window (morning, afternoon, evening). We will confirm availability within 2 hours during office hours. For urgent non-emergency needs, mention "priority scheduling" and we will do our best to accommodate.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              Do you offer quotes over the phone or email?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              For simple, well-defined services (e.g., outlet installation, fixture replacement), we can provide ball park estimates over the phone. For complex or uncertain-scope work, we provide written quotes after a brief site assessment to ensure accuracy. Commercial projects always receive detailed written quotes after scope definition.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              What information should I have ready when I contact you?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              For fastest service: your full address or landmark, contact phone number, brief description of the electrical issue or service needed, and preferred contact method. For commercial inquiries: business name, property type, scope description, and timeline expectations.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              Can I change or cancel a scheduled appointment?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Yes. Contact us at least 4 hours before your scheduled time to reschedule or cancel without penalty. For emergency appointments already en route, cancellation policies apply – see our Terms of Service for details.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              How do I reach the commercial team specifically?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Call +94 75 824 4216 and ask for the commercial coordinator, or email electrical@six7.lk with "Commercial Inquiry" in the subject line. You may also mention "Commercial" in your first WhatsApp message for routing to the appropriate team member.
+            </div>
+          </details>
+        </div>
+
+        <div class="text-center mt-8">
+          <a href="https://electrical.six7.lk/terms" class="inline-flex items-center gap-1 text-accent-orange font-medium hover:underline">
+            Still have questions? View our complete Terms of Service <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 10: FINAL CTA SECTION ========== -->
+    <section class="py-16 md:py-20 bg-primary-deep circuit-pattern text-white" aria-labelledby="final-cta-heading">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 id="final-cta-heading" class="text-3xl md:text-4xl font-black mb-6">Ready to Get in Touch?</h2>
+        <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+          Whether you need urgent emergency repair, a quote for commercial electrical work, or have a question about our services – Six7 Electrical is here to help. Licensed, insured, and locally based with a commitment to fast, transparent, and reliable service.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+          <a href="tel:+94758244216" class="bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-accent-orange/30 transition-all">
+            <i class="fas fa-phone-alt"></i> Emergency? Call Now: +94 75 824 4216
+          </a>
+          <a href="#contact-form" class="bg-white hover:bg-slate-50 text-primary font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-black/10 transition-all">
+            <i class="fas fa-paper-plane"></i> Send Non-Emergency Message
+          </a>
+        </div>
+        <p class="text-slate-400 text-sm">
+          <a href="https://wa.me/94758244216" class="text-accent-orange hover:underline">WhatsApp for Quick Questions →</a>
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 mt-8 text-sm text-slate-400">
+          <span class="flex items-center gap-2"><i class="fas fa-clock text-accent-orange"></i> 24/7 Emergency Response</span>
+          <span class="flex items-center gap-2"><i class="fas fa-id-card text-accent-orange"></i> Licensed Technicians</span>
+          <span class="flex items-center gap-2"><i class="fas fa-receipt text-accent-orange"></i> Transparent Pricing</span>
+          <span class="flex items-center gap-2"><i class="fas fa-shield-alt text-accent-orange"></i> 90-Day Guarantee</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-primary text-slate-300 py-12 border-t border-slate-700" role="contentinfo">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-10">
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="size-10 bg-accent-orange rounded-xl flex items-center justify-center text-white"><i class="fas fa-bolt text-2xl"></i></div>
+            <span class="font-black text-xl text-white">Six7 Electrical</span>
+          </div>
+          <p class="text-sm mb-4">Safe. Fast. Reliable. 24/7 emergency electricians and electrical specialists serving Colombo and Western Province since 2018.</p>
+          <a href="https://electrical.six7.lk/" class="text-accent-orange text-sm hover:underline">Six7 Electrical Home →</a>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://electrical.six7.lk/emergency" class="hover:text-accent-orange">Emergency Repairs</a></li>
+            <li><a href="https://electrical.six7.lk/services/wiring" class="hover:text-accent-orange">Residential Wiring</a></li>
+            <li><a href="https://electrical.six7.lk/commercial" class="hover:text-accent-orange">Commercial Electrical</a></li>
+            <li><a href="https://electrical.six7.lk/services/solar" class="hover:text-accent-orange">Solar Power</a></li>
+            <li><a href="https://electrical.six7.lk/services/ev-charging" class="hover:text-accent-orange">EV Charging</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Areas</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://electrical.six7.lk/areas#colombo-01" class="hover:text-accent-orange">Colombo 01-07</a></li>
+            <li><a href="https://electrical.six7.lk/areas#colombo-08" class="hover:text-accent-orange">Colombo 08-15</a></li>
+            <li><a href="https://electrical.six7.lk/areas#rajagiriya" class="hover:text-accent-orange">Rajagiriya</a></li>
+            <li><a href="https://electrical.six7.lk/areas#nugegoda" class="hover:text-accent-orange">Nugegoda</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Company</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://electrical.six7.lk/about" class="hover:text-accent-orange">About Us</a></li>
+            <li><a href="https://electrical.six7.lk/pricing" class="hover:text-accent-orange">Pricing Guide</a></li>
+            <li><a href="https://electrical.six7.lk/reviews" class="hover:text-accent-orange">Reviews</a></li>
+            <li><a href="https://electrical.six7.lk/contact" class="hover:text-accent-orange">Contact</a></li>
+            <li><a href="https://electrical.six7.lk/terms" class="hover:text-accent-orange">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+          <span class="flex items-center gap-2"><i class="fas fa-phone text-accent-orange"></i> <a href="tel:+94758244216" class="hover:text-white">+94 75 824 4216</a></span>
+          <span class="flex items-center gap-2"><i class="fas fa-envelope text-accent-orange"></i> <a href="mailto:electrical@six7.lk" class="hover:text-white">electrical@six7.lk</a></span>
+          <span class="flex items-center gap-2"><i class="fab fa-whatsapp text-accent-orange"></i> <a href="https://wa.me/94758244216" class="hover:text-white">WhatsApp</a></span>
+        </div>
+        <p class="text-center md:text-right"><i class="fas fa-map-marker-alt text-accent-orange mr-1"></i> Colombo, Sri Lanka</p>
+      </div>
+
+      <div class="border-t border-slate-700 mt-6 pt-6 text-center text-xs text-slate-500">
+        <p class="mb-2">
+          <a href="https://electrical.six7.lk/privacy" class="hover:text-slate-300">Privacy Policy</a> • 
+          <a href="https://electrical.six7.lk/terms" class="hover:text-slate-300">Terms of Service</a> • 
+          <a href="https://electrical.six7.lk/sitemap" class="hover:text-slate-300">Sitemap</a>
+        </p>
+        <p>© 2026 Six7 Electrical Sri Lanka. All rights reserved.<br>Licensed Electrical Contractor | VAT Reg. No: [XXXX]</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- sticky mobile CTA -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 p-3 bg-white/95 dark:bg-primary-deep/95 backdrop-blur border-t border-slate-200 dark:border-slate-800 flex gap-3 md:hidden">
+    <a href="tel:+94758244216" class="flex-1 bg-accent-orange text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fas fa-phone-alt text-base"></i> Call</a>
+    <a href="https://wa.me/94758244216" class="flex-1 bg-whatsapp-green text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fab fa-whatsapp text-base"></i> WhatsApp</a>
+  </div>
+
+  <script>
+    const menuBtn = document.getElementById('menuToggleBtn'), closeBtn = document.getElementById('closeDrawerBtn'), drawer = document.getElementById('mobile-menu-drawer');
+    if (menuBtn && closeBtn && drawer) {
+      menuBtn.addEventListener('click', () => drawer.classList.add('open'));
+      closeBtn.addEventListener('click', () => drawer.classList.remove('open'));
+      drawer.addEventListener('click', (e) => { if (e.target === drawer) drawer.classList.remove('open'); });
+    }
+
+    // Character counter for textarea
+    const messageTextarea = document.getElementById('message');
+    const charCountSpan = document.getElementById('charCount');
+    if (messageTextarea && charCountSpan) {
+      messageTextarea.addEventListener('input', function() {
+        charCountSpan.textContent = this.value.length;
+      });
+    }
+
+    // Conditional service fields based on inquiry type
+    const inquiryTypeSelect = document.getElementById('inquiryType');
+    const residentialDiv = document.getElementById('residentialServices');
+    const commercialDiv = document.getElementById('commercialServices');
+    const technologyDiv = document.getElementById('technologyServices');
+
+    if (inquiryTypeSelect) {
+      inquiryTypeSelect.addEventListener('change', function() {
+        // Hide all conditional divs first
+        residentialDiv.classList.add('hidden');
+        commercialDiv.classList.add('hidden');
+        technologyDiv.classList.add('hidden');
+        
+        // Show relevant div based on selection
+        if (this.value === 'residential') {
+          residentialDiv.classList.remove('hidden');
+        } else if (this.value === 'commercial') {
+          commercialDiv.classList.remove('hidden');
+        } else if (this.value === 'technology') {
+          technologyDiv.classList.remove('hidden');
+        }
+      });
+    }
+
+    // Coverage check tool
+    const checkCoverageBtn = document.getElementById('checkCoverageBtn');
+    const areaSelect = document.getElementById('areaSelect');
+    const coverageResult = document.getElementById('coverageResult');
+
+    if (checkCoverageBtn && areaSelect && coverageResult) {
+      checkCoverageBtn.addEventListener('click', function() {
+        const selectedArea = areaSelect.value;
+        if (!selectedArea) {
+          coverageResult.className = 'p-4 rounded-xl border text-sm bg-amber-50 border-amber-200 text-amber-700';
+          coverageResult.innerHTML = '<i class="fas fa-exclamation-circle mr-2"></i> Please select an area from the dropdown.';
+          coverageResult.classList.remove('hidden');
+          return;
+        }
+
+        // Coverage logic
+        let resultClass = '';
+        let resultHTML = '';
+
+        if (selectedArea.startsWith('colombo-')) {
+          resultClass = 'bg-green-50 border-green-200 text-green-700';
+          resultHTML = '<i class="fas fa-check-circle mr-2"></i> <span class="font-bold">Yes, we serve ' + areaSelect.options[areaSelect.selectedIndex].text + '.</span> Emergency response target: 25-50 minutes depending on exact location. <a href="https://electrical.six7.lk/booking" class="underline font-medium">Book now</a> or call to schedule.';
+        } else if (['rajagiriya', 'nugegoda', 'battaramulla', 'dehiwala', 'mount-lavinia', 'kirulapone', 'narahenpita', 'malabe', 'maharagama'].includes(selectedArea)) {
+          resultClass = 'bg-green-50 border-green-200 text-green-700';
+          resultHTML = '<i class="fas fa-check-circle mr-2"></i> <span class="font-bold">Yes, we serve ' + areaSelect.options[areaSelect.selectedIndex].text + '.</span> Emergency response target: 45-65 minutes depending on traffic. <a href="https://electrical.six7.lk/booking" class="underline font-medium">Book now</a> or call to schedule.';
+        } else if (selectedArea === 'gampaha' || selectedArea === 'kalutara') {
+          resultClass = 'bg-amber-50 border-amber-200 text-amber-700';
+          resultHTML = '<i class="fas fa-info-circle mr-2"></i> <span class="font-bold">Limited coverage in ' + areaSelect.options[areaSelect.selectedIndex].text + '.</span> Emergency coverage by arrangement; scheduled services available. Call <a href="tel:+94758244216" class="underline font-medium">+94 75 824 4216</a> to confirm availability.';
+        } else {
+          resultClass = 'bg-red-50 border-red-200 text-red-700';
+          resultHTML = '<i class="fas fa-times-circle mr-2"></i> <span class="font-bold">We do not currently serve ' + areaSelect.options[areaSelect.selectedIndex].text + '.</span> We are expanding regularly – <a href="#contact-form" class="underline font-medium">leave your details</a> to be notified when we launch in your area.';
+        }
+
+        coverageResult.className = 'p-4 rounded-xl border text-sm ' + resultClass;
+        coverageResult.innerHTML = resultHTML;
+        coverageResult.classList.remove('hidden');
+      });
+    }
+  </script>
+</body>
+</html>
