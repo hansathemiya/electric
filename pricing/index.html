@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Canonical & Meta (SEO optimized) -->
+  <link rel="canonical" href="https://six7.lk/pricing">
+  <title>Electrical Service Pricing Colombo | Transparent Rates | Six7 Electrical</title>
+  <meta name="description" content="Clear, upfront pricing for emergency and planned electrical services in Colombo. No call-out fee for emergencies. Hourly rates, materials, and service packages explained. Call +94 75 824 4216.">
+  <meta name="keywords" content="electrician pricing colombo, emergency electrician cost, electrical service rates sri lanka, wiring cost colombo, solar installation price, EV charger installation cost">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Transparent Electrical Pricing | Six7 Electrical Colombo">
+  <meta property="og:description" content="No hidden fees. See our clear hourly rates, emergency pricing, and service packages for electrical work in Colombo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://six7.lk/pricing">
+  <meta property="og:locale" content="en_LK">
+
+  <!-- Tailwind + Font Awesome -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 (Free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Schema Markup (JSON-LD) - Service, Offer, FAQPage, BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://six7.lk/pricing#emergency",
+        "name": "Emergency Electrical Service",
+        "provider": {"@id": "https://six7.lk/#organization"},
+        "description": "24/7 emergency electrical repair service with no call-out fee.",
+        "offers": {
+          "@type": "Offer",
+          "price": "3500",
+          "priceCurrency": "LKR",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 3500,
+            "priceCurrency": "LKR",
+            "unitText": "HOUR"
+          }
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://six7.lk/pricing#residential",
+        "name": "Residential Electrical Service",
+        "provider": {"@id": "https://six7.lk/#organization"},
+        "description": "Scheduled residential electrical work.",
+        "offers": {
+          "@type": "Offer",
+          "price": "2500",
+          "priceCurrency": "LKR",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 2500,
+            "priceCurrency": "LKR",
+            "unitText": "HOUR"
+          }
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://six7.lk/pricing#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is there no call-out fee for emergencies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We believe emergency electrical issues should not be delayed due to cost concerns. Waiving the call-out fee ensures you can call us immediately when safety is at risk. You only pay for the time we spend diagnosing and fixing the problem."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if the job takes longer than estimated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide time estimates based on typical scenarios, but complex faults may require additional time. If we anticipate exceeding the initial estimate, your technician will contact you for approval before continuing. You are only billed for actual time worked."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get a fixed price quote instead of hourly billing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. For defined scope work like outlet installation, fixture replacement, or small projects, we can provide a fixed price quote upon request. For larger or uncertain-scope jobs, hourly billing ensures you only pay for actual work performed."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://six7.lk/pricing#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://six7.lk/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pricing Guide",
+            "item": "https://six7.lk/pricing"
+          }
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://six7.lk/#organization",
+        "name": "Six7 Electrical",
+        "telephone": "+94758244216",
+        "email": "electrical@six7.lk",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Colombo",
+          "addressRegion": "Western Province",
+          "addressCountry": "LK"
+        },
+        "priceRange": "$$"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .circuit-pattern { background-image: radial-gradient(circle at 2px 2px, rgba(232, 106, 33, 0.15) 1px, transparent 0); background-size: 24px 24px; }
+    #mobile-menu-drawer { transition: transform 0.3s ease-in-out; transform: translateX(100%); }
+    #mobile-menu-drawer.open { transform: translateX(0); }
+    body { font-family: 'Public Sans', sans-serif; }
+    html { scroll-behavior: smooth; }
+    .anchor-offset { scroll-margin-top: 80px; }
+    @media (min-width: 768px) { .anchor-offset { scroll-margin-top: 100px; } }
+    .pricing-card { transition: all 0.2s ease; }
+    .pricing-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); }
+  </style>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#0a2642',
+            'primary-deep': '#0a2540',
+            'accent-orange': '#e86a21',
+            'whatsapp-green': '#25D366',
+            'background-light': '#f8f7f6',
+            'background-dark': '#0a2540',
+          },
+          fontFamily: { 'display': ['Public Sans', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display antialiased">
+
+  <!-- Sticky Header -->
+  <header class="sticky top-0 z-40 bg-primary/95 backdrop-blur-md border-b border-slate-700/50 px-4 py-3 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2 hover:opacity-90">
+      <div class="size-8 bg-accent-orange rounded-lg flex items-center justify-center text-white"><i class="fas fa-bolt text-xl"></i></div>
+      <span class="font-black text-lg text-white uppercase">Six7 Electrical</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-white/90">
+      <a href="/emergency" class="hover:text-accent-orange transition flex items-center gap-1"><i class="fas fa-exclamation-triangle text-base"></i>Emergency</a>
+      <a href="/commercial" class="hover:text-accent-orange transition">Commercial</a>
+      <a href="/services" class="hover:text-accent-orange transition">Services</a>
+      <a href="/areas" class="hover:text-accent-orange transition">Areas</a>
+      <a href="/pricing" class="hover:text-accent-orange transition">Pricing</a>
+      <a href="/contact" class="hover:text-accent-orange transition">Contact</a>
+    </nav>
+    <button id="menuToggleBtn" class="p-2 text-white rounded-full hover:bg-white/10 transition md:hidden"><i class="fas fa-bars text-3xl"></i></button>
+  </header>
+
+  <!-- mobile drawer -->
+  <div id="mobile-menu-drawer" class="fixed top-0 right-0 z-50 h-full w-64 bg-primary-deep dark:bg-slate-900 shadow-2xl border-l border-white/10 p-6 backdrop-blur-xl transition-transform duration-300 ease-in-out translate-x-full">
+    <div class="flex justify-end"><button id="closeDrawerBtn" class="text-white/70 hover:text-white"><i class="fas fa-times text-3xl"></i></button></div>
+    <nav class="mt-8 flex flex-col gap-5 text-white">
+      <a href="/emergency" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-exclamation-triangle text-accent-orange"></i> Emergency</a>
+      <a href="/commercial" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-briefcase text-accent-orange"></i> Commercial</a>
+      <a href="/services" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-tools text-accent-orange"></i> Services</a>
+      <a href="/areas" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-map-marker-alt text-accent-orange"></i> Areas</a>
+      <a href="/pricing" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-tag text-accent-orange"></i> Pricing</a>
+      <a href="/contact" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-envelope text-accent-orange"></i> Contact</a>
+      <div class="pt-6 flex flex-col gap-3">
+        <a href="tel:+94758244216" class="bg-accent-orange w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2"><i class="fas fa-phone-alt"></i> Call now</a>
+        <a href="https://wa.me/94758244216" class="bg-whatsapp-green w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Breadcrumb Navigation -->
+  <div class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 py-2 px-4 text-sm">
+    <div class="max-w-7xl mx-auto">
+      <a href="/" class="text-slate-500 hover:text-accent-orange">Home</a>
+      <span class="text-slate-400 mx-2">/</span>
+      <span class="text-accent-orange font-medium">Pricing Guide</span>
+    </div>
+  </div>
+
+  <main class="w-full mx-auto md:max-w-screen-xl md:px-6 lg:px-8">
+
+    <!-- ========== SECTION 1: HERO SECTION ========== -->
+    <section class="relative bg-primary-deep circuit-pattern overflow-hidden pt-12 pb-16 px-4 md:pt-20 md:pb-24 md:rounded-2xl md:mt-4" aria-label="Transparent Electrical Pricing Colombo">
+      <div class="relative z-10 max-w-7xl mx-auto text-center md:text-left">
+        <!-- H1 -->
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-white mb-6">
+          Transparent Electrical Pricing – <span class="text-accent-orange">No Hidden Fees, Ever</span>
+        </h1>
+        <!-- subheading -->
+        <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto md:mx-0 mb-8 leading-relaxed">
+          Clear, upfront rates for emergency and planned electrical services across Colombo. You approve the quote before any work begins. <strong>No call-out fee for emergencies.</strong>
+        </p>
+        <!-- CTAs - Primary and Secondary -->
+        <div class="flex flex-col sm:flex-row md:flex-wrap gap-4 justify-center md:justify-start mb-8">
+          <a href="tel:+94758244216" class="group bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-accent-orange/30 transition-all w-full sm:w-auto">
+            <i class="fas fa-phone-alt group-hover:animate-pulse"></i>
+            <span>Call for Emergency: +94 75 824 4216</span>
+          </a>
+          <a href="/booking" class="group bg-white hover:bg-slate-50 text-primary font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-black/10 transition-all w-full sm:w-auto border-2 border-transparent hover:border-slate-200">
+            <i class="fas fa-calendar-check text-primary"></i>
+            <span>Book Non-Emergency Service</span>
+          </a>
+          <a href="/areas" class="group bg-transparent border-2 border-white/40 hover:border-white text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 transition-all w-full sm:w-auto">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>View Service Areas</span>
+          </a>
+        </div>
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6 text-white/90 text-sm font-medium">
+          <span class="flex items-center gap-2"><i class="fas fa-ban text-accent-orange"></i> No Call-Out Fee for Emergencies</span>
+          <span class="hidden md:block w-px h-4 bg-white/20"></span>
+          <span class="flex items-center gap-2"><i class="fas fa-check-circle text-accent-orange"></i> Quote Approved Before Work</span>
+          <span class="hidden md:block w-px h-4 bg-white/20"></span>
+          <span class="flex items-center gap-2"><i class="fas fa-shield-alt text-accent-orange"></i> 90-Day Guarantee</span>
+          <span class="hidden md:block w-px h-4 bg-white/20"></span>
+          <span class="flex items-center gap-2"><i class="fas fa-tools text-accent-orange"></i> Licensed Technicians</span>
+        </div>
+        <!-- Service Area Micro-Text -->
+        <p class="mt-6 text-slate-400 text-sm max-w-2xl mx-auto md:mx-0">
+          <i class="fas fa-map-marker-alt text-accent-orange mr-1"></i>
+          Serving <strong>Colombo 01-15, Rajagiriya, Nugegoda, Battaramulla, Dehiwala, Mount Lavinia</strong> and surrounding Western Province areas.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: PRICING PROMISE BANNER ========== -->
+    <section class="bg-accent-orange text-white py-4 text-center sticky top-[72px] z-30 md:static" aria-label="Pricing Promise">
+      <p class="font-bold text-base md:text-lg px-4">
+        <i class="fas fa-hand-holding-heart mr-2"></i>
+        <span class="font-semibold">Our Pricing Promise:</span> No surprises, no hidden fees, no pressure. You receive a clear quote before we start any work. 
+        <a href="#materials-policy" class="ml-1 underline hover:text-white font-semibold">How we calculate quotes →</a>
+      </p>
+    </section>
+
+    <!-- ========== SECTION 3: EMERGENCY SERVICE PRICING ========== -->
+    <section id="emergency-pricing" class="py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="emergency-pricing-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="emergency-pricing-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-primary dark:text-white">
+          Emergency Electrical Repairs – 24/7 Rapid Response
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-3xl">
+          For urgent electrical issues requiring immediate attention. <strong class="text-accent-orange">No call-out fee – ever.</strong> You only pay for time worked and parts used.
+        </p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10">
+          <!-- Main Pricing Card -->
+          <div class="lg:col-span-2 bg-white dark:bg-slate-800 p-8 rounded-2xl border-2 border-accent-orange shadow-xl pricing-card">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-2xl font-bold text-primary dark:text-white">Emergency Service Rate</h3>
+              <span class="bg-green-100 text-green-700 font-bold py-1 px-3 rounded-full text-sm">Call-out fee waived</span>
+            </div>
+            <div class="mb-6">
+              <span class="text-5xl font-black text-primary dark:text-white">LKR 3,500</span>
+              <span class="text-slate-500 text-xl">/hour</span>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-400 mb-6">
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Minimum one hour, then billed in 30-minute increments</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Includes diagnostic time and travel within primary service area</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Same rate applies nights, weekends, and public holidays – no overtime surcharge</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Call-out fee waived for all emergency repairs (LKR 1,500 value)</li>
+              <li class="flex gap-2"><i class="fas fa-info-circle text-blue-500"></i> Diagnostic only fee: LKR 1,500 (waived if you proceed with repair)</li>
+            </ul>
+          </div>
+
+          <!-- When Emergency Rates Apply -->
+          <div class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-2xl border border-slate-200 dark:border-slate-700">
+            <h4 class="font-bold text-primary dark:text-white mb-4 text-lg">When Emergency Rates Apply</h4>
+            <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
+              <li class="flex gap-2"><i class="fas fa-bolt text-accent-orange"></i> Power outage not caused by grid issues</li>
+              <li class="flex gap-2"><i class="fas fa-fire text-accent-orange"></i> Burning smell, sparks, or smoke from electrical components</li>
+              <li class="flex gap-2"><i class="fas fa-sync-alt text-accent-orange"></i> Circuit breaker repeatedly tripping with no obvious cause</li>
+              <li class="flex gap-2"><i class="fas fa-cloud-rain text-accent-orange"></i> Storm or flood damage affecting electrical systems</li>
+              <li class="flex gap-2"><i class="fas fa-home text-accent-orange"></i> Partial power loss requiring urgent diagnosis</li>
+              <li class="flex gap-2"><i class="fas fa-exclamation-triangle text-accent-orange"></i> Electrical issues posing immediate safety risk</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Example Scenarios Grid -->
+        <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl mb-6">
+          <h4 class="font-bold text-primary dark:text-white mb-4">Example Emergency Scenarios and Estimated Time</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Resetting tripped main breaker (no fault found)</span>
+              <span class="font-bold text-primary">30-45 min</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Replacing faulty MCB or RCD</span>
+              <span class="font-bold text-primary">45-75 min</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Diagnosing and repairing short circuit in single circuit</span>
+              <span class="font-bold text-primary">1-2 hours</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Restoring power after minor flood damage</span>
+              <span class="font-bold text-primary">1.5-3 hours</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Full distribution board replacement</span>
+              <span class="font-bold text-primary">3-5 hours</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-500 mt-4"><i class="fas fa-info-circle mr-1"></i> Time estimates are approximate. Actual time depends on fault complexity, accessibility, and parts availability. Your technician will provide an updated estimate upon arrival.</p>
+        </div>
+
+        <div class="text-right">
+          <a href="/emergency" class="inline-flex items-center gap-2 text-accent-orange font-medium hover:underline">
+            View emergency service details and booking <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 4: STANDARD SERVICE PRICING (RESIDENTIAL) ========== -->
+    <section id="residential-pricing" class="py-12 md:py-16 bg-slate-50 dark:bg-slate-900/20" aria-labelledby="residential-pricing-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="residential-pricing-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-primary dark:text-white">
+          Planned Residential Electrical Services
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-3xl">
+          For non-urgent electrical work scheduled at your convenience. Transparent hourly pricing with no minimum call-out fee.
+        </p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10">
+          <!-- Standard Rate Card -->
+          <div class="lg:col-span-2 bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg pricing-card">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-2xl font-bold text-primary dark:text-white">Standard Residential Rate</h3>
+              <span class="bg-accent-orange/10 text-accent-orange font-bold py-1 px-3 rounded-full text-sm">Hourly billing</span>
+            </div>
+            <div class="mb-6">
+              <span class="text-5xl font-black text-primary dark:text-white">LKR 2,500</span>
+              <span class="text-slate-500 text-xl">/hour</span>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-400 mb-6">
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Minimum one hour, then billed in 30-minute increments</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Includes diagnostic time and travel within primary service area</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-green-500"></i> Book online or via phone for weekday or weekend slots</li>
+              <li class="flex gap-2"><i class="fas fa-info-circle text-blue-500"></i> Diagnostic fee: LKR 1,500 (waived if you proceed with repair)</li>
+            </ul>
+          </div>
+
+          <!-- Project-Based Pricing Note -->
+          <div class="bg-primary text-white p-8 rounded-2xl">
+            <h4 class="font-bold text-xl mb-3">Project-Based Pricing</h4>
+            <p class="text-sm text-slate-200 mb-4">For larger jobs like full rewiring or new construction, we offer fixed project quotes.</p>
+            <ul class="space-y-2 text-sm text-slate-200">
+              <li class="flex gap-2"><i class="fas fa-check-circle text-accent-orange"></i> Free initial consultation</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-accent-orange"></i> Detailed scope of work document</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-accent-orange"></i> Fixed-price quote with materials breakdown</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-accent-orange"></i> 50% deposit to schedule, balance upon completion</li>
+              <li class="flex gap-2"><i class="fas fa-check-circle text-accent-orange"></i> Written warranty on workmanship and materials</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Common Residential Services Table -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden mb-6">
+          <div class="bg-slate-100 dark:bg-slate-700 px-6 py-3">
+            <h4 class="font-bold text-primary dark:text-white">Common Residential Services and Typical Time Estimates</h4>
+          </div>
+          <div class="divide-y divide-slate-200 dark:divide-slate-700">
+            <div class="grid grid-cols-2 gap-4 px-6 py-3">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Install new power outlet or switch</span>
+              <span class="font-bold text-primary text-right">45-75 min</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4 px-6 py-3 bg-slate-50 dark:bg-slate-800/50">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Replace faulty light fixture or ceiling fan</span>
+              <span class="font-bold text-primary text-right">30-60 min</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4 px-6 py-3">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Install USB outlet or smart switch</span>
+              <span class="font-bold text-primary text-right">45-90 min</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4 px-6 py-3 bg-slate-50 dark:bg-slate-800/50">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Upgrade single circuit wiring</span>
+              <span class="font-bold text-primary text-right">2-4 hours</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4 px-6 py-3">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Full house rewiring (3-bedroom home)</span>
+              <span class="font-bold text-primary text-right">2-4 days*</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4 px-6 py-3 bg-slate-50 dark:bg-slate-800/50">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Electrical safety inspection and report</span>
+              <span class="font-bold text-primary text-right">1-2 hours</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4 px-6 py-3">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Install surge protection at distribution board</span>
+              <span class="font-bold text-primary text-right">60-90 min</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4 px-6 py-3 bg-slate-50 dark:bg-slate-800/50">
+              <span class="text-sm text-slate-600 dark:text-slate-400">Add dedicated circuit for air conditioner</span>
+              <span class="font-bold text-primary text-right">2-3 hours</span>
+            </div>
+          </div>
+          <div class="px-6 py-3 text-xs text-slate-500 border-t border-slate-200 dark:border-slate-700">
+            * Full rewiring quoted as fixed project price
+          </div>
+        </div>
+
+        <div class="text-right">
+          <a href="/services/wiring" class="inline-flex items-center gap-2 text-accent-orange font-medium hover:underline">
+            Learn more about residential wiring services <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 5: COMMERCIAL SERVICE PRICING ========== -->
+    <section id="commercial-pricing" class="py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="commercial-pricing-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="commercial-pricing-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-primary dark:text-white">
+          Commercial Electrical Solutions
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-3xl">
+          Electrical services for businesses, offices, retail spaces, and industrial properties. Custom pricing based on scope, scale, and scheduling requirements.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <!-- Hourly Rate -->
+          <div class="bg-slate-50 dark:bg-slate-800/50 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-lg text-primary dark:text-white mb-3">Hourly Rate for Small Jobs</h3>
+            <div class="mb-3">
+              <span class="text-3xl font-black text-primary">LKR 3,000</span>
+              <span class="text-slate-500">/hour</span>
+            </div>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2">Best for minor repairs, outlet additions, lighting replacements</p>
+            <p class="text-xs text-slate-500">Minimum: 2-hour booking for commercial sites</p>
+          </div>
+
+          <!-- Day Rate -->
+          <div class="bg-slate-50 dark:bg-slate-800/50 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-lg text-primary dark:text-white mb-3">Day Rate for Medium Projects</h3>
+            <div class="mb-3">
+              <span class="text-3xl font-black text-primary">LKR 20,000</span>
+              <span class="text-slate-500">/8-hour day</span>
+            </div>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-2">Best for office rewiring, retail fit-outs, preventive maintenance</p>
+            <p class="text-xs text-slate-500">Includes: Two technicians, standard tools, vehicle</p>
+          </div>
+        </div>
+
+        <!-- Commercial Pricing Models -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+            <h4 class="font-bold text-primary dark:text-white mb-3 flex items-center gap-2"><i class="fas fa-file-signature text-accent-orange"></i> Project-Based Pricing</h4>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Custom quote for large installations</p>
+            <ul class="text-xs text-slate-500 space-y-1">
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> New construction electrical</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> 3-phase installations</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Warehouse lighting upgrades</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Project management included</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+            <h4 class="font-bold text-primary dark:text-white mb-3 flex items-center gap-2"><i class="fas fa-calendar-alt text-accent-orange"></i> Preventive Maintenance</h4>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Monthly or quarterly retainers</p>
+            <ul class="text-xs text-slate-500 space-y-1">
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Scheduled inspections</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Priority response</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Discounted repair rates</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Customized to your property</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+            <h4 class="font-bold text-primary dark:text-white mb-3 flex items-center gap-2"><i class="fas fa-chart-line text-accent-orange"></i> Volume Discounts</h4>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">For chain businesses and multi-site</p>
+            <ul class="text-xs text-slate-500 space-y-1">
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Preferential rates for 12-month contracts</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Centralized billing</li>
+              <li><i class="fas fa-check text-accent-orange mr-1"></i> Coordinated scheduling</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Common Commercial Services -->
+        <div class="bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl mb-6">
+          <h4 class="font-bold text-primary dark:text-white mb-4">Common Commercial Services and Pricing Guidance</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm">Install or relocate commercial lighting</span>
+              <span class="font-bold text-primary">LKR 3,000-5,000 per fixture</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm">Upgrade distribution board for increased load</span>
+              <span class="font-bold text-primary">LKR 15,000-40,000</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm">Install emergency lighting system</span>
+              <span class="font-bold text-primary">LKR 8,000-25,000 per exit pair</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm">3-phase power installation</span>
+              <span class="font-bold text-primary">Quoted per project</span>
+            </div>
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-700 pb-2">
+              <span class="text-sm">Preventive maintenance visit (up to 4 hours)</span>
+              <span class="font-bold text-primary">LKR 12,000 flat rate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-right">
+          <a href="/commercial" class="inline-flex items-center gap-2 text-accent-orange font-medium hover:underline">
+            Explore commercial electrical services and request a quote <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 6: TECHNOLOGY SERVICES PRICING ========== -->
+    <section id="technology-pricing" class="py-12 md:py-16 bg-slate-50 dark:bg-slate-900/20" aria-labelledby="technology-pricing-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="technology-pricing-heading" class="text-2xl md:text-3xl lg:text-4xl font-black mb-4 text-primary dark:text-white">
+          Solar, EV Charging, and Smart Home Installations
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-3xl">
+          Specialized electrical services for modern energy and automation needs. Pricing includes equipment consultation, installation, and compliance support.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <!-- Solar Power -->
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg">
+            <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center mb-4"><i class="fas fa-solar-panel text-accent-orange text-xl"></i></div>
+            <h3 class="font-bold text-xl text-primary dark:text-white mb-3">Solar Power System</h3>
+            <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400 mb-4">
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Consultation and site assessment: Free</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> CEB net metering support: Included</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Installation labor: LKR 15,000-40,000</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Equipment: Cost plus 15%</li>
+            </ul>
+            <p class="text-sm font-bold text-primary">Typical 3kW system: LKR 350,000-550,000</p>
+            <p class="text-sm font-bold text-primary mt-1">10kW commercial: LKR 900,000-1,500,000</p>
+            <p class="text-xs text-slate-500 mt-3">2-year workmanship warranty, manufacturer equipment warranties</p>
+            <a href="/services/solar" class="inline-flex items-center gap-1 text-accent-orange text-sm font-medium mt-4 hover:underline">Learn about solar <i class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <!-- EV Charging -->
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg">
+            <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center mb-4"><i class="fas fa-charging-station text-accent-orange text-xl"></i></div>
+            <h3 class="font-bold text-xl text-primary dark:text-white mb-3">EV Charging Station</h3>
+            <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400 mb-4">
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Home Level 2 installation: LKR 25,000-60,000</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Commercial charger: Quoted per project</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Load assessment included</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Panel upgrades quoted separately</li>
+            </ul>
+            <p class="text-sm font-bold text-primary">Equipment: Customer-supplied or sourced at cost plus 15%</p>
+            <p class="text-xs text-slate-500 mt-3">Typical timeline: 1-2 days from approval</p>
+            <a href="/services/ev-charging" class="inline-flex items-center gap-1 text-accent-orange text-sm font-medium mt-4 hover:underline">EV charging details <i class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <!-- Smart Home -->
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg">
+            <div class="w-12 h-12 bg-accent-orange/10 rounded-xl flex items-center justify-center mb-4"><i class="fas fa-microchip text-accent-orange text-xl"></i></div>
+            <h3 class="font-bold text-xl text-primary dark:text-white mb-3">Smart Home Setup</h3>
+            <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400 mb-4">
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Consultation and design: LKR 5,000 (waived with installation)</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Basic smart switch: LKR 3,500 per switch</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Whole-home package: Quoted per property</li>
+              <li><i class="fas fa-check text-green-500 mr-2"></i> Remote troubleshooting: LKR 2,500/30 min</li>
+            </ul>
+            <p class="text-sm font-bold text-primary">Equipment: Customer-supplied or sourced at cost plus 15%</p>
+            <p class="text-xs text-slate-500 mt-3">Training and handover included</p>
+            <a href="/services/smart-home" class="inline-flex items-center gap-1 text-accent-orange text-sm font-medium mt-4 hover:underline">Smart home options <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="bg-primary/5 dark:bg-slate-800/50 p-4 rounded-xl text-sm">
+          <p><i class="fas fa-info-circle text-accent-orange mr-2"></i> All technology installations include compliance verification with Sri Lankan electrical standards. Equipment warranties are separate from workmanship guarantee.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 7: MATERIALS AND PARTS POLICY ========== -->
+    <section id="materials-policy" class="anchor-offset py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="materials-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="materials-heading" class="text-2xl md:text-3xl font-black mb-4 text-primary dark:text-white">
+          How We Price Materials and Parts
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-3xl">
+          Transparency in parts pricing ensures you know exactly what you are paying for.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div class="bg-slate-50 dark:bg-slate-800/50 p-6 rounded-xl">
+            <h3 class="font-bold text-primary dark:text-white mb-3 flex items-center gap-2"><i class="fas fa-box text-accent-orange"></i> Our Materials Policy</h3>
+            <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Parts billed at supplier cost plus 15% handling</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Handling covers sourcing, verification, inventory, warranty</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Itemized parts on invoice with supplier cost shown</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Common parts stocked to minimize delays</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Cost estimate provided before ordering specialized parts</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-50 dark:bg-slate-800/50 p-6 rounded-xl">
+            <h3 class="font-bold text-primary dark:text-white mb-3 flex items-center gap-2"><i class="fas fa-shield-alt text-accent-orange"></i> Parts Warranty</h3>
+            <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> All parts carry manufacturer warranty (1-2 years)</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> We assist with warranty claims for parts we supply</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Labor warranty covered under 90-day guarantee if installation-related</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-50 dark:bg-slate-800/50 p-6 rounded-xl">
+            <h3 class="font-bold text-primary dark:text-white mb-3 flex items-center gap-2"><i class="fas fa-user-check text-accent-orange"></i> Your Options</h3>
+            <div class="mb-3">
+              <p class="font-bold text-sm">Six7 Supplies (Recommended)</p>
+              <p class="text-xs text-slate-500">Quality-certified components, full warranty support, faster completion</p>
+            </div>
+            <div>
+              <p class="font-bold text-sm">Customer Supplies</p>
+              <p class="text-xs text-slate-500">Must meet Sri Lankan standards, we verify compatibility, parts warranty handled directly</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-amber-50 dark:bg-amber-900/20 p-4 rounded-xl">
+          <p class="text-sm"><i class="fas fa-exclamation-triangle text-amber-600 mr-2"></i> When Parts Costs May Vary: Urgent sourcing outside hours may incur expedited fees. Imported components subject to currency fluctuations. We will notify you of any cost changes before proceeding.</p>
+        </div>
+
+        <div class="text-right mt-4">
+          <a href="/terms" class="text-xs text-accent-orange hover:underline">View complete terms of service for materials policy details →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 8: PAYMENT METHODS AND INVOICING ========== -->
+    <section class="py-12 md:py-16 bg-slate-50 dark:bg-slate-900/20" aria-labelledby="payment-heading">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 id="payment-heading" class="text-2xl md:text-3xl font-black mb-4 text-primary dark:text-white">
+          Payment Options and Invoice Details
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-3xl">
+          Flexible payment methods and clear documentation for your records.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <!-- Payment Methods -->
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-primary dark:text-white mb-4 text-lg">Accepted Payment Methods</h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="flex items-center gap-2"><i class="fas fa-money-bill-wave text-accent-orange"></i> <span>Cash (LKR)</span></div>
+              <div class="flex items-center gap-2"><i class="fas fa-university text-accent-orange"></i> <span>Bank Transfer</span></div>
+              <div class="flex items-center gap-2"><i class="fas fa-credit-card text-accent-orange"></i> <span>Credit/Debit Cards</span></div>
+              <div class="flex items-center gap-2"><i class="fas fa-mobile-alt text-accent-orange"></i> <span>Mobile Payments</span></div>
+            </div>
+          </div>
+
+          <!-- Payment Terms -->
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+            <h3 class="font-bold text-primary dark:text-white mb-4 text-lg">Payment Terms</h3>
+            <ul class="space-y-2 text-sm">
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Emergency services: Due upon completion</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Standard residential: Due upon completion</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Commercial projects: Net 7 days from invoice</li>
+              <li><i class="fas fa-circle text-accent-orange mr-2 text-[8px]"></i> Maintenance retainers: Billed monthly in advance</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Invoice Structure -->
+        <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700 mb-6">
+          <h3 class="font-bold text-primary dark:text-white mb-4 text-lg">Invoice Structure</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <p class="font-medium mb-2">Every invoice includes:</p>
+              <ul class="space-y-1 text-sm text-slate-600 dark:text-slate-400">
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Date, invoice number, technician name</li>
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Service address and contact details</li>
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Itemized labor: hours, rate, total</li>
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Itemized parts: description, cost, handling, total</li>
+              </ul>
+            </div>
+            <div>
+              <p class="font-medium mb-2">Additional details:</p>
+              <ul class="space-y-1 text-sm text-slate-600 dark:text-slate-400">
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Subtotal, taxes, grand total</li>
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Payment terms and due date</li>
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Workmanship guarantee reference</li>
+                <li><i class="fas fa-check text-accent-orange mr-2"></i> Contact for follow-up questions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-primary/5 dark:bg-slate-800/50 p-4 rounded-xl">
+          <p class="text-sm flex items-center gap-2"><i class="fas fa-file-invoice text-accent-orange"></i> Digital receipt emailed immediately. Detailed invoice available for download from customer portal. All documentation suitable for insurance claims or business records. VAT invoice provided upon request.</p>
+        </div>
+
+        <div class="text-right mt-4">
+          <a href="/contact" class="text-xs text-accent-orange hover:underline">Contact accounts team for billing questions →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 9: PRICING FAQ ========== -->
+    <section class="py-12 md:py-16 bg-white dark:bg-slate-900/30" aria-labelledby="faq-heading">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 id="faq-heading" class="text-2xl md:text-3xl font-black text-center mb-10 text-primary dark:text-white">
+          Frequently Asked Questions About Pricing
+        </h2>
+
+        <div class="space-y-4">
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              Why is there no call-out fee for emergencies?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              We believe emergency electrical issues should not be delayed due to cost concerns. Waiving the call-out fee ensures you can call us immediately when safety is at risk. You only pay for the time we spend diagnosing and fixing the problem.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              What happens if the job takes longer than estimated?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              We provide time estimates based on typical scenarios, but complex faults may require additional time. If we anticipate exceeding the initial estimate, your technician will contact you for approval before continuing. You are only billed for actual time worked.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              Can I get a fixed price quote instead of hourly billing?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Yes. For defined scope work like outlet installation, fixture replacement, or small projects, we can provide a fixed price quote upon request. For larger or uncertain-scope jobs, hourly billing ensures you only pay for actual work performed.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              Are there extra charges for weekends or public holidays?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              No. Our emergency rate applies equally 24/7, including weekends and public holidays. For planned non-emergency work scheduled on weekends, standard hourly rates apply with no surcharge.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              Do you offer discounts for multiple services or repeat customers?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Yes. We offer volume discounts for multiple outlets or circuits addressed in one visit. Repeat residential customers receive priority scheduling. Commercial clients with maintenance contracts receive preferential rates on additional work.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              How do I know the quote is fair compared to other electricians?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Our rates reflect licensed expertise, insured work, quality parts, and guaranteed results. We encourage you to compare not just price but value: response time, certification, warranty, and transparency. We are confident our pricing represents fair value for professional electrical service in Colombo.
+            </div>
+          </details>
+
+          <details class="group bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-5 open:bg-white">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-primary dark:text-white">
+              What if I am not home when the technician arrives?
+              <i class="fas fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              For emergency services, we require someone to be present for safety and access. For planned services, we can arrange key collection or access instructions in advance. No additional fee applies for pre-arranged access.
+            </div>
+          </details>
+        </div>
+
+        <div class="text-center mt-8">
+          <p class="text-sm text-slate-600 dark:text-slate-400">Still have questions?</p>
+          <a href="/contact" class="inline-flex items-center gap-2 text-accent-orange font-bold hover:underline mt-2">
+            Contact us directly <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 10: FINAL CTA SECTION ========== -->
+    <section class="py-16 md:py-20 bg-primary-deep circuit-pattern text-white" aria-labelledby="final-cta-heading">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 id="final-cta-heading" class="text-3xl md:text-4xl font-black mb-6">Ready to Proceed? Get Your Clear Quote Today</h2>
+        <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+          Whether you need urgent emergency repair or are planning a larger electrical project, Six7 Electrical provides transparent pricing and professional service. Call us to discuss your needs or book online for scheduled work.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+          <a href="tel:+94758244216" class="bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-accent-orange/30 transition-all">
+            <i class="fas fa-phone-alt"></i> Call for Emergency: +94 75 824 4216
+          </a>
+          <a href="/booking" class="bg-white hover:bg-slate-50 text-primary font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-black/10 transition-all">
+            <i class="fas fa-calendar-check"></i> Book Non-Emergency Service Online
+          </a>
+        </div>
+        <div class="flex flex-wrap justify-center gap-4 mt-8 text-sm text-slate-400">
+          <span class="flex items-center gap-2"><i class="fas fa-shield-alt text-accent-orange"></i> 90-Day Workmanship Guarantee</span>
+          <span class="flex items-center gap-2"><i class="fas fa-tools text-accent-orange"></i> Licensed Technicians</span>
+          <span class="flex items-center gap-2"><i class="fas fa-receipt text-accent-orange"></i> Transparent Pricing</span>
+          <span class="flex items-center gap-2"><i class="fas fa-ban text-accent-orange"></i> No Hidden Fees</span>
+        </div>
+        <p class="mt-6 text-slate-500 text-xs">
+          <a href="#" class="hover:text-slate-300 underline">Download Pricing Guide PDF (coming soon)</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-primary text-slate-300 py-12 border-t border-slate-700" role="contentinfo">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-10">
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="size-10 bg-accent-orange rounded-xl flex items-center justify-center text-white"><i class="fas fa-bolt text-2xl"></i></div>
+            <span class="font-black text-xl text-white">Six7 Electrical</span>
+          </div>
+          <p class="text-sm mb-4">Safe. Fast. Reliable. 24/7 emergency electricians and planned electrical specialists serving Colombo and Western Province since 2018.</p>
+          <a href="/" class="text-accent-orange text-sm hover:underline">Six7 Electrical Home →</a>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Emergency</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/emergency#power-outage" class="hover:text-accent-orange">Power Outage Repair</a></li>
+            <li><a href="/emergency#sparks" class="hover:text-accent-orange">Burning Smell</a></li>
+            <li><a href="/emergency#breaker" class="hover:text-accent-orange">Breaker Tripping</a></li>
+            <li><a href="/emergency#storm" class="hover:text-accent-orange">Storm Damage</a></li>
+            <li><a href="/emergency" class="text-accent-orange font-medium">All Emergencies →</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/services/wiring" class="hover:text-accent-orange">Residential Wiring</a></li>
+            <li><a href="/commercial" class="hover:text-accent-orange">Commercial</a></li>
+            <li><a href="/services/solar" class="hover:text-accent-orange">Solar Power</a></li>
+            <li><a href="/services/ev-charging" class="hover:text-accent-orange">EV Charger</a></li>
+            <li><a href="/services/smart-home" class="hover:text-accent-orange">Smart Home</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Company</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/pricing" class="hover:text-accent-orange">Pricing Guide</a></li>
+            <li><a href="/areas" class="hover:text-accent-orange">Service Areas</a></li>
+            <li><a href="/reviews" class="hover:text-accent-orange">Reviews</a></li>
+            <li><a href="/contact" class="hover:text-accent-orange">Contact</a></li>
+            <li><a href="/faq" class="hover:text-accent-orange">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+          <span class="flex items-center gap-2"><i class="fas fa-phone text-accent-orange"></i> <a href="tel:+94758244216" class="hover:text-white">+94 75 824 4216</a></span>
+          <span class="flex items-center gap-2"><i class="fas fa-envelope text-accent-orange"></i> <a href="mailto:electrical@six7.lk" class="hover:text-white">electrical@six7.lk</a></span>
+          <span class="flex items-center gap-2"><i class="fab fa-whatsapp text-accent-orange"></i> <a href="https://wa.me/94758244216" class="hover:text-white">WhatsApp</a></span>
+        </div>
+        <p class="text-center md:text-right"><i class="fas fa-map-marker-alt text-accent-orange mr-1"></i> Colombo, Sri Lanka</p>
+      </div>
+
+      <div class="border-t border-slate-700 mt-6 pt-6 text-center text-xs text-slate-500">
+        <p class="mb-2">
+          <a href="/privacy" class="hover:text-slate-300">Privacy Policy</a> • 
+          <a href="/terms" class="hover:text-slate-300">Terms of Service</a> • 
+          <a href="/sitemap" class="hover:text-slate-300">Sitemap</a>
+        </p>
+        <p>© 2026 Six7 Electrical Sri Lanka. All rights reserved.<br>Licensed Electrical Contractor | VAT Reg. No: [XXXX]</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- sticky mobile CTA -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 p-3 bg-white/95 dark:bg-primary-deep/95 backdrop-blur border-t border-slate-200 dark:border-slate-800 flex gap-3 md:hidden">
+    <a href="tel:+94758244216" class="flex-1 bg-accent-orange text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fas fa-phone-alt text-base"></i> Call</a>
+    <a href="https://wa.me/94758244216" class="flex-1 bg-whatsapp-green text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fab fa-whatsapp text-base"></i> WhatsApp</a>
+  </div>
+
+  <script>
+    const menuBtn = document.getElementById('menuToggleBtn'), closeBtn = document.getElementById('closeDrawerBtn'), drawer = document.getElementById('mobile-menu-drawer');
+    if (menuBtn && closeBtn && drawer) {
+      menuBtn.addEventListener('click', () => drawer.classList.add('open'));
+      closeBtn.addEventListener('click', () => drawer.classList.remove('open'));
+      drawer.addEventListener('click', (e) => { if (e.target === drawer) drawer.classList.remove('open'); });
+    }
+  </script>
+</body>
+</html>
