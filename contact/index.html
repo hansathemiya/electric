@@ -155,6 +155,26 @@
     .contact-card { transition: all 0.2s ease; }
     .contact-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); }
     .emergency-banner { background: linear-gradient(135deg, #e86a21 0%, #c04e0f 100%); }
+    /* Modal Styles */
+    #successModal, #errorModal {
+      transition: opacity 0.3s ease;
+    }
+    .modal-open {
+      overflow: hidden;
+    }
+    /* Submit button spinner */
+    .spinner {
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      border-top-color: #fff;
+      animation: spin 1s ease-in-out infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
   </style>
 
   <script>
@@ -379,17 +399,21 @@
         </p>
 
         <div class="bg-white dark:bg-slate-800 p-6 md:p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg">
-          <form action="#" method="POST" class="space-y-5">
+          <!-- FormSubmit configuration with POST method and no redirect -->
+          <form action="https://formsubmit.co/cform67electric@six7.lk" method="POST" class="space-y-5" id="contactForm">
+            <!-- FormSubmit configuration -->
+            <input type="hidden" name="_subject" value="New Contact Form Submission - Six7 Electrical">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_captcha" value="false">
+            <!-- Use a placeholder to prevent redirect - FormSubmit will still show success but we'll handle it with AJAX -->
+            <input type="hidden" name="_next" value="">
             <!-- Honeypot field (hidden) -->
-            <div class="hidden">
-              <label for="website">Website (leave blank)</label>
-              <input type="text" id="website" name="website" value="">
-            </div>
+            <input type="text" name="_honey" style="display:none">
 
             <!-- Full Name -->
             <div>
               <label for="fullName" class="block text-sm font-medium text-primary dark:text-white mb-1">Full Name <span class="text-accent-orange">*</span></label>
-              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required minlength="2" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <input type="text" id="fullName" name="Name" placeholder="Your full name" required minlength="2" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
             </div>
 
             <!-- Contact Phone -->
@@ -397,7 +421,7 @@
               <label for="phone" class="block text-sm font-medium text-primary dark:text-white mb-1">Contact Phone <span class="text-accent-orange">*</span></label>
               <div class="flex">
                 <span class="inline-flex items-center px-3 rounded-l-xl border border-r-0 border-slate-300 dark:border-slate-600 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300">+94</span>
-                <input type="tel" id="phone" name="phone" placeholder="7X XXX XXXX" required pattern="[0-9]{9}" class="w-full px-4 py-3 rounded-r-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <input type="tel" id="phone" name="Phone" placeholder="7X XXX XXXX" required pattern="[0-9]{9}" class="w-full px-4 py-3 rounded-r-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
               </div>
               <p class="text-xs text-slate-500 mt-1">Sri Lankan mobile number (9 digits)</p>
             </div>
@@ -405,20 +429,20 @@
             <!-- Email Address -->
             <div>
               <label for="email" class="block text-sm font-medium text-primary dark:text-white mb-1">Email Address <span class="text-accent-orange">*</span></label>
-              <input type="email" id="email" name="email" placeholder="your.email@example.com" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <input type="email" id="email" name="Email" placeholder="your.email@example.com" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
             </div>
 
             <!-- Service Address -->
             <div>
               <label for="address" class="block text-sm font-medium text-primary dark:text-white mb-1">Service Address <span class="text-accent-orange">*</span></label>
-              <input type="text" id="address" name="address" placeholder="Your address or nearest landmark in Colombo" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <input type="text" id="address" name="Address" placeholder="Your address or nearest landmark in Colombo" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
               <p class="text-xs text-slate-500 mt-1">Include postal code or Colombo district number if known (e.g., Colombo 07)</p>
             </div>
 
             <!-- Inquiry Type -->
             <div>
               <label for="inquiryType" class="block text-sm font-medium text-primary dark:text-white mb-1">Inquiry Type <span class="text-accent-orange">*</span></label>
-              <select id="inquiryType" name="inquiryType" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <select id="inquiryType" name="Inquiry Type" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
                 <option value="">-- Select inquiry type --</option>
                 <option value="emergency">Emergency Electrical Repair</option>
                 <option value="residential">Residential Service Booking</option>
@@ -433,7 +457,7 @@
             <!-- Service Needed (Conditional - Residential) -->
             <div id="residentialServices" class="hidden">
               <label for="residentialType" class="block text-sm font-medium text-primary dark:text-white mb-1">Residential Service Needed</label>
-              <select id="residentialType" name="residentialType" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <select id="residentialType" name="Residential Service" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
                 <option value="">-- Select service --</option>
                 <option value="wiring">House Wiring/Rewiring</option>
                 <option value="outlets">Outlet/Switch Installation</option>
@@ -446,7 +470,7 @@
             <!-- Service Needed (Conditional - Commercial) -->
             <div id="commercialServices" class="hidden">
               <label for="commercialType" class="block text-sm font-medium text-primary dark:text-white mb-1">Commercial Service Needed</label>
-              <select id="commercialType" name="commercialType" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <select id="commercialType" name="Commercial Service" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
                 <option value="">-- Select service --</option>
                 <option value="office">Office Rewiring</option>
                 <option value="retail">Retail Fit-out</option>
@@ -459,7 +483,7 @@
             <!-- Service Needed (Conditional - Technology) -->
             <div id="technologyServices" class="hidden">
               <label for="technologyType" class="block text-sm font-medium text-primary dark:text-white mb-1">Technology Service Needed</label>
-              <select id="technologyType" name="technologyType" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+              <select id="technologyType" name="Technology Service" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
                 <option value="">-- Select service --</option>
                 <option value="solar">Solar Installation</option>
                 <option value="ev">EV Charger</option>
@@ -474,13 +498,13 @@
               <label class="block text-sm font-medium text-primary dark:text-white mb-2">Preferred Contact Method</label>
               <div class="flex flex-wrap gap-4">
                 <label class="flex items-center gap-2">
-                  <input type="radio" name="contactMethod" value="phone" checked class="text-accent-orange focus:ring-accent-orange"> Phone Call
+                  <input type="radio" name="Preferred Contact Method" value="phone" checked class="text-accent-orange focus:ring-accent-orange"> Phone Call
                 </label>
                 <label class="flex items-center gap-2">
-                  <input type="radio" name="contactMethod" value="whatsapp" class="text-accent-orange focus:ring-accent-orange"> WhatsApp
+                  <input type="radio" name="Preferred Contact Method" value="whatsapp" class="text-accent-orange focus:ring-accent-orange"> WhatsApp
                 </label>
                 <label class="flex items-center gap-2">
-                  <input type="radio" name="contactMethod" value="email" class="text-accent-orange focus:ring-accent-orange"> Email
+                  <input type="radio" name="Preferred Contact Method" value="email" class="text-accent-orange focus:ring-accent-orange"> Email
                 </label>
               </div>
             </div>
@@ -489,8 +513,8 @@
             <div>
               <label class="block text-sm font-medium text-primary dark:text-white mb-1">Preferred Service Date/Time (for non-emergency)</label>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <input type="date" id="preferredDate" name="preferredDate" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
-                <select id="preferredTime" name="preferredTime" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <input type="date" id="preferredDate" name="Preferred Date" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                <select id="preferredTime" name="Preferred Time" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
                   <option value="">-- Select time window --</option>
                   <option value="morning">Morning (8 AM - 12 PM)</option>
                   <option value="afternoon">Afternoon (12 PM - 5 PM)</option>
@@ -503,7 +527,7 @@
             <!-- Message -->
             <div>
               <label for="message" class="block text-sm font-medium text-primary dark:text-white mb-1">Message/Additional Details</label>
-              <textarea id="message" name="message" rows="4" placeholder="Briefly describe your electrical need, any symptoms, or project details. For emergencies, please call instead." maxlength="500" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange"></textarea>
+              <textarea id="message" name="Message" rows="4" placeholder="Briefly describe your electrical need, any symptoms, or project details. For emergencies, please call instead." maxlength="500" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange"></textarea>
               <p class="text-xs text-slate-500 mt-1"><span id="charCount">0</span>/500 characters</p>
             </div>
 
@@ -516,18 +540,15 @@
             </div>
 
             <!-- reCAPTCHA notice -->
-            <p class="text-xs text-slate-400">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+            <p class="text-xs text-slate-400">This site is protected by FormSubmit and their Privacy Policy and Terms of Service apply.</p>
 
-            <!-- Submit Button -->
+            <!-- Submit Button with loading state -->
             <div class="pt-2">
-              <button type="submit" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-6 rounded-xl text-lg transition shadow-lg shadow-accent-orange/30">
-                Send Message <i class="fas fa-paper-plane ml-2"></i>
+              <button type="submit" id="submitBtn" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-6 rounded-xl text-lg transition shadow-lg shadow-accent-orange/30 flex items-center justify-center gap-2">
+                <span id="submitText">Send Message</span>
+                <i class="fas fa-paper-plane" id="submitIcon"></i>
+                <span id="submitSpinner" class="hidden"><span class="spinner"></span></span>
               </button>
-            </div>
-
-            <!-- Success Message (hidden by default) -->
-            <div id="successMessage" class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-xl text-sm mt-4">
-              <i class="fas fa-check-circle mr-2"></i> Thank you! Your inquiry has been received. We will respond within 2 hours during office hours. For emergencies, call +94 75 824 4216 immediately.
             </div>
           </form>
 
@@ -961,6 +982,97 @@
 
   </main>
 
+  <!-- ========== SUCCESS MODAL ========== -->
+  <div id="successModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/50 backdrop-blur-sm" style="display: none;">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-700">
+      <div class="text-center mb-4">
+        <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <i class="fas fa-check-circle text-green-600 text-4xl"></i>
+        </div>
+        <h3 class="text-2xl font-bold text-primary dark:text-white mb-2">Message Sent Successfully!</h3>
+        <p class="text-slate-600 dark:text-slate-400 mb-4">Thank you for contacting Six7 Electrical. We'll get back to you within 2 hours during office hours.</p>
+        <p class="text-sm text-slate-500 dark:text-slate-500 mb-4">Need immediate assistance? Reach out directly:</p>
+      </div>
+      
+      <div class="space-y-3 mb-6">
+        <a href="tel:+94758244216" class="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700/50 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-full flex items-center justify-center">
+              <i class="fas fa-phone-alt text-accent-orange"></i>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-primary dark:text-white">Call Us</p>
+              <p class="text-xs text-slate-500">+94 75 824 4216</p>
+            </div>
+          </div>
+          <i class="fas fa-arrow-right text-accent-orange"></i>
+        </a>
+        
+        <a href="https://wa.me/94758244216" class="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700/50 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-whatsapp-green/10 rounded-full flex items-center justify-center">
+              <i class="fab fa-whatsapp text-whatsapp-green"></i>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-primary dark:text-white">WhatsApp Us</p>
+              <p class="text-xs text-slate-500">wa.me/94758244216</p>
+            </div>
+          </div>
+          <i class="fas fa-arrow-right text-accent-orange"></i>
+        </a>
+      </div>
+      
+      <button onclick="closeSuccessModal()" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-3 rounded-xl transition">
+        Close
+      </button>
+    </div>
+  </div>
+
+  <!-- ========== ERROR MODAL ========== -->
+  <div id="errorModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/50 backdrop-blur-sm" style="display: none;">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-700">
+      <div class="text-center mb-4">
+        <div class="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <i class="fas fa-exclamation-circle text-red-600 text-4xl"></i>
+        </div>
+        <h3 class="text-2xl font-bold text-primary dark:text-white mb-2">Message Failed</h3>
+        <p class="text-slate-600 dark:text-slate-400 mb-4">We couldn't send your message due to a technical error. Please try again or contact us directly:</p>
+      </div>
+      
+      <div class="space-y-3 mb-6">
+        <a href="tel:+94758244216" class="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700/50 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-full flex items-center justify-center">
+              <i class="fas fa-phone-alt text-accent-orange"></i>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-primary dark:text-white">Call Us</p>
+              <p class="text-xs text-slate-500">+94 75 824 4216</p>
+            </div>
+          </div>
+          <i class="fas fa-arrow-right text-accent-orange"></i>
+        </a>
+        
+        <a href="https://wa.me/94758244216" class="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700/50 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-whatsapp-green/10 rounded-full flex items-center justify-center">
+              <i class="fab fa-whatsapp text-whatsapp-green"></i>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-primary dark:text-white">WhatsApp Us</p>
+              <p class="text-xs text-slate-500">wa.me/94758244216</p>
+            </div>
+          </div>
+          <i class="fas fa-arrow-right text-accent-orange"></i>
+        </a>
+      </div>
+      
+      <button onclick="closeErrorModal()" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-3 rounded-xl transition">
+        Close
+      </button>
+    </div>
+  </div>
+
   <!-- ========== FOOTER ========== -->
   <footer class="bg-primary text-slate-300 py-12 border-t border-slate-700" role="contentinfo">
     <div class="max-w-7xl mx-auto px-4">
@@ -1019,13 +1131,13 @@
           <a href="https://electrical.six7.lk/terms" class="hover:text-slate-300">Terms of Service</a> • 
           <a href="https://electrical.six7.lk/sitemap" class="hover:text-slate-300">Sitemap</a>
         </p>
-        <p>© 2026 Six7 Electrical Sri Lanka. All rights reserved.<br>Licensed Electrical Contractor | VAT Reg. No: [XXXX]</p>
+        <p>© 2026 Six7 Electrical Sri Lanka. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
   <!-- sticky mobile CTA -->
-  <div class="fixed bottom-0 left-0 right-0 z-50 p-3 bg-white/95 dark:bg-primary-deep/95 backdrop-blur border-t border-slate-200 dark:border-slate-800 flex gap-3 md:hidden">
+  <div class="fixed bottom-0 left-0 right-0 z-40 p-3 bg-white/95 dark:bg-primary-deep/95 backdrop-blur border-t border-slate-200 dark:border-slate-800 flex gap-3 md:hidden">
     <a href="tel:+94758244216" class="flex-1 bg-accent-orange text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fas fa-phone-alt text-base"></i> Call</a>
     <a href="https://wa.me/94758244216" class="flex-1 bg-whatsapp-green text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fab fa-whatsapp text-base"></i> WhatsApp</a>
   </div>
@@ -1109,6 +1221,99 @@
         coverageResult.classList.remove('hidden');
       });
     }
+
+    // Modal functions
+    function showSuccessModal() {
+      document.getElementById('successModal').style.display = 'flex';
+      document.body.classList.add('modal-open');
+    }
+
+    function closeSuccessModal() {
+      document.getElementById('successModal').style.display = 'none';
+      document.body.classList.remove('modal-open');
+    }
+
+    function showErrorModal() {
+      document.getElementById('errorModal').style.display = 'flex';
+      document.body.classList.add('modal-open');
+    }
+
+    function closeErrorModal() {
+      document.getElementById('errorModal').style.display = 'none';
+      document.body.classList.remove('modal-open');
+    }
+
+    // Handle form submission with AJAX to prevent redirect
+    const contactForm = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const submitText = document.getElementById('submitText');
+    const submitIcon = document.getElementById('submitIcon');
+    const submitSpinner = document.getElementById('submitSpinner');
+    
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent default form submission
+        
+        // Show loading state
+        submitText.textContent = 'Sending...';
+        submitIcon.classList.add('hidden');
+        submitSpinner.classList.remove('hidden');
+        submitBtn.disabled = true;
+        
+        // Collect form data
+        const formData = new FormData(contactForm);
+        
+        // Send with fetch API
+        fetch('https://formsubmit.co/ajax/cform67electric@six7.lk', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.success) {
+            // Reset form
+            contactForm.reset();
+            // Show success modal
+            showSuccessModal();
+          } else {
+            // Show error modal
+            showErrorModal();
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          showErrorModal();
+        })
+        .finally(() => {
+          // Reset button state
+          submitText.textContent = 'Send Message';
+          submitIcon.classList.remove('hidden');
+          submitSpinner.classList.add('hidden');
+          submitBtn.disabled = false;
+        });
+      });
+    }
+
+    // Close modals when clicking outside
+    window.addEventListener('click', function(e) {
+      const successModal = document.getElementById('successModal');
+      const errorModal = document.getElementById('errorModal');
+      
+      if (e.target === successModal) {
+        closeSuccessModal();
+      }
+      if (e.target === errorModal) {
+        closeErrorModal();
+      }
+    });
+
+    // Close modals with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeSuccessModal();
+        closeErrorModal();
+      }
+    });
   </script>
 </body>
 </html>
