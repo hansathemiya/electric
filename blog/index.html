@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Canonical & Meta (SEO optimized) -->
+  <link rel="canonical" href="https://electrical.six7.lk/blog">
+  <title>Electrical Safety & Tips Blog | Six7 Electrical Colombo</title>
+  <meta name="description" content="Expert electrical advice for Colombo homes and businesses: safety tips, energy efficiency, solar guides, emergency preparedness, and local electrical insights from licensed electricians.">
+  <meta name="keywords" content="electrical blog colombo, electrical safety tips sri lanka, home electrical advice colombo, energy efficiency tips sri lanka, solar power guide colombo, electrical how-to guides">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Six7 Electrical Blog | Expert Electrical Advice for Colombo">
+  <meta property="og:description" content="Learn from Colombo's trusted electricians: safety tips, energy savings, solar guides, and electrical how-tos for homes and businesses.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://electrical.six7.lk/blog">
+  <meta property="og:image" content="https://electrical.six7.lk/images/blog-hero.jpg">
+  <meta property="og:locale" content="en_LK">
+
+  <!-- Tailwind + Font Awesome -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 (Free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Schema Markup (JSON-LD) - Blog, WebPage, BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "@id": "https://electrical.six7.lk/blog",
+        "url": "https://electrical.six7.lk/blog",
+        "name": "Six7 Electrical Blog",
+        "description": "Expert electrical advice for Colombo homes and businesses: safety tips, energy efficiency, solar guides, and local electrical insights.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Six7 Electrical",
+          "url": "https://electrical.six7.lk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://electrical.six7.lk/logo.png"
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://electrical.six7.lk/blog",
+        "url": "https://electrical.six7.lk/blog",
+        "name": "Electrical Safety & Tips Blog | Six7 Electrical Colombo",
+        "description": "Expert electrical advice for Colombo homes and businesses: safety tips, energy efficiency, solar guides, emergency preparedness, and local electrical insights.",
+        "isPartOf": {
+          "@id": "https://electrical.six7.lk/blog"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://electrical.six7.lk/blog#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://electrical.six7.lk/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://electrical.six7.lk/blog"
+          }
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://electrical.six7.lk/#organization",
+        "name": "Six7 Electrical",
+        "url": "https://electrical.six7.lk",
+        "telephone": "+94758244216",
+        "email": "electrical@six7.lk",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Colombo",
+          "addressRegion": "Western Province",
+          "addressCountry": "LK"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .circuit-pattern { background-image: radial-gradient(circle at 2px 2px, rgba(232, 106, 33, 0.15) 1px, transparent 0); background-size: 24px 24px; }
+    #mobile-menu-drawer { transition: transform 0.3s ease-in-out; transform: translateX(100%); }
+    #mobile-menu-drawer.open { transform: translateX(0); }
+    body { font-family: 'Public Sans', sans-serif; }
+    html { scroll-behavior: smooth; }
+    .blog-card { transition: all 0.2s ease; }
+    .blog-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); }
+    .category-tag { font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 9999px; display: inline-block; }
+    .tag-cloud-item { display: inline-block; padding: 0.5rem 1rem; margin: 0.25rem; border-radius: 9999px; background-color: #f1f5f9; color: #0a2642; font-size: 0.875rem; transition: all 0.2s; cursor: pointer; }
+    .tag-cloud-item:hover { background-color: #e86a21; color: white; }
+    .dark .tag-cloud-item { background-color: #1e293b; color: #e2e8f0; }
+    .dark .tag-cloud-item:hover { background-color: #e86a21; color: white; }
+    .badge { font-size: 0.7rem; font-weight: 600; padding: 0.2rem 0.75rem; border-radius: 9999px; background-color: #e86a21; color: white; display: inline-block; }
+    /* Placeholder image styles */
+    .placeholder-img {
+      background: linear-gradient(135deg, #0a2642 0%, #1a3a5a 100%);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .placeholder-img i {
+      font-size: 3rem;
+      opacity: 0.5;
+    }
+    /* Search results dropdown */
+    #search-results {
+      max-height: 400px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #e86a21 #e2e8f0;
+    }
+    #search-results::-webkit-scrollbar {
+      width: 6px;
+    }
+    #search-results::-webkit-scrollbar-track {
+      background: #e2e8f0;
+      border-radius: 10px;
+    }
+    #search-results::-webkit-scrollbar-thumb {
+      background: #e86a21;
+      border-radius: 10px;
+    }
+    /* Modal styles */
+    #newsletterModal {
+      transition: opacity 0.3s ease;
+    }
+    .modal-open {
+      overflow: hidden;
+    }
+    /* Spinner animation */
+    .spinner {
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      border-top-color: #fff;
+      animation: spin 1s ease-in-out infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#0a2642',
+            'primary-deep': '#0a2540',
+            'accent-orange': '#e86a21',
+            'whatsapp-green': '#25D366',
+            'background-light': '#f8f7f6',
+            'background-dark': '#0a2540',
+          },
+          fontFamily: { 'display': ['Public Sans', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display antialiased">
+
+  <!-- Sticky Header -->
+  <header class="sticky top-0 z-40 bg-primary/95 backdrop-blur-md border-b border-slate-700/50 px-4 py-3 flex items-center justify-between">
+    <a href="https://electrical.six7.lk/" class="flex items-center gap-2 hover:opacity-90">
+      <div class="size-8 bg-accent-orange rounded-lg flex items-center justify-center text-white"><i class="fas fa-bolt text-xl"></i></div>
+      <span class="font-black text-lg text-white uppercase">Six7 Electrical</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-white/90">
+      <a href="https://electrical.six7.lk/emergency" class="hover:text-accent-orange transition flex items-center gap-1"><i class="fas fa-exclamation-triangle text-base"></i>Emergency</a>
+      <a href="https://electrical.six7.lk/commercial" class="hover:text-accent-orange transition">Commercial</a>
+      <a href="https://electrical.six7.lk/services" class="hover:text-accent-orange transition">Services</a>
+      <a href="https://electrical.six7.lk/areas" class="hover:text-accent-orange transition">Areas</a>
+      <a href="https://electrical.six7.lk/pricing" class="hover:text-accent-orange transition">Pricing</a>
+      <a href="https://electrical.six7.lk/about" class="hover:text-accent-orange transition">About</a>
+      <a href="https://electrical.six7.lk/contact" class="hover:text-accent-orange transition">Contact</a>
+    </nav>
+    <button id="menuToggleBtn" class="p-2 text-white rounded-full hover:bg-white/10 transition md:hidden"><i class="fas fa-bars text-3xl"></i></button>
+  </header>
+
+  <!-- mobile drawer -->
+  <div id="mobile-menu-drawer" class="fixed top-0 right-0 z-50 h-full w-64 bg-primary-deep dark:bg-slate-900 shadow-2xl border-l border-white/10 p-6 backdrop-blur-xl transition-transform duration-300 ease-in-out translate-x-full">
+    <div class="flex justify-end"><button id="closeDrawerBtn" class="text-white/70 hover:text-white"><i class="fas fa-times text-3xl"></i></button></div>
+    <nav class="mt-8 flex flex-col gap-5 text-white">
+      <a href="https://electrical.six7.lk/emergency" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-exclamation-triangle text-accent-orange"></i> Emergency</a>
+      <a href="https://electrical.six7.lk/commercial" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-briefcase text-accent-orange"></i> Commercial</a>
+      <a href="https://electrical.six7.lk/services" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-tools text-accent-orange"></i> Services</a>
+      <a href="https://electrical.six7.lk/areas" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-map-marker-alt text-accent-orange"></i> Areas</a>
+      <a href="https://electrical.six7.lk/pricing" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-tag text-accent-orange"></i> Pricing</a>
+      <a href="https://electrical.six7.lk/about" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-info-circle text-accent-orange"></i> About</a>
+      <a href="https://electrical.six7.lk/contact" class="text-base font-medium flex items-center gap-3 border-b border-white/10 pb-2"><i class="fas fa-envelope text-accent-orange"></i> Contact</a>
+      <div class="pt-6 flex flex-col gap-3">
+        <a href="tel:+94758244216" class="bg-accent-orange w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2"><i class="fas fa-phone-alt"></i> Call now</a>
+        <a href="https://wa.me/94758244216" class="bg-whatsapp-green w-full py-3 rounded-xl font-bold flex items-center justify-center gap-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Breadcrumb Navigation -->
+  <div class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 py-2 px-4 text-sm">
+    <div class="max-w-7xl mx-auto">
+      <a href="https://electrical.six7.lk/" class="text-slate-500 hover:text-accent-orange">Home</a>
+      <span class="text-slate-400 mx-2">/</span>
+      <span class="text-accent-orange font-medium">Blog</span>
+    </div>
+  </div>
+
+  <main class="w-full mx-auto md:max-w-screen-xl md:px-6 lg:px-8 py-8 md:py-12">
+
+    <!-- ========== SECTION 1: HERO SECTION ========== -->
+    <section class="relative bg-primary-deep circuit-pattern overflow-hidden pt-12 pb-16 px-4 md:pt-20 md:pb-24 md:rounded-2xl mb-8" aria-label="Blog Hero">
+      <div class="relative z-10 max-w-7xl mx-auto text-center md:text-left">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-white mb-4">
+          Six7 Electrical Blog – Expert Advice for Colombo Homes and Businesses
+        </h1>
+        <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto md:mx-0 mb-8 leading-relaxed">
+          Practical electrical tips, safety guides, energy-saving strategies, and local insights from Colombo's trusted licensed electricians. Learn how to keep your property safe, efficient, and up-to-date.
+        </p>
+        
+        <!-- UPDATED: Search Bar with Results Dropdown -->
+        <div class="max-w-2xl mx-auto md:mx-0 relative" id="search-container">
+          <div class="relative">
+            <input type="text" 
+                   id="blog-search" 
+                   placeholder="Search articles..." 
+                   class="w-full px-5 py-4 pr-12 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange"
+                   autocomplete="off">
+            <button id="search-button" class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-accent-orange">
+              <i class="fas fa-search text-xl"></i>
+            </button>
+          </div>
+          
+          <!-- Search Results Dropdown -->
+          <div id="search-results" class="absolute z-50 w-full mt-2 bg-white dark:bg-slate-800 rounded-xl shadow-xl border border-slate-200 dark:border-slate-700 hidden max-h-96 overflow-y-auto">
+            <!-- Results will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: BLOG CATEGORIES NAVIGATION ========== -->
+    <section class="py-8 md:py-12" aria-labelledby="categories-heading">
+      <h2 id="categories-heading" class="text-2xl md:text-3xl font-black mb-6 text-primary dark:text-white">Browse by Category</h2>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Category 1: Electrical Safety -->
+        <a href="/blog/category/electrical-safety" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-shield-alt text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">Electrical Safety</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Essential safety tips, hazard prevention, and emergency preparedness</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">12 articles →</span>
+        </a>
+
+        <!-- Category 2: Energy Efficiency -->
+        <a href="/blog/category/energy-efficiency" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-leaf text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">Energy Efficiency</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Reduce bills, save energy, and optimize electrical usage</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">8 articles →</span>
+        </a>
+
+        <!-- Category 3: Solar Power -->
+        <a href="/blog/category/solar-power" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-solar-panel text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">Solar Power</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Solar installation guides, net metering, and renewable energy tips</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">6 articles →</span>
+        </a>
+
+        <!-- Category 4: Smart Home Technology -->
+        <a href="/blog/category/smart-home" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-microchip text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">Smart Home</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Home automation, smart devices, and modern electrical solutions</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">5 articles →</span>
+        </a>
+
+        <!-- Category 5: Commercial Electrical -->
+        <a href="/blog/category/commercial-electrical" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-briefcase text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">Commercial</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Business electrical solutions, compliance, and maintenance</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">7 articles →</span>
+        </a>
+
+        <!-- Category 6: Emergency Preparedness -->
+        <a href="/blog/category/emergency-preparedness" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-first-aid text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">Emergency Prep</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">What to do during electrical emergencies, outages, and storms</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">4 articles →</span>
+        </a>
+
+        <!-- Category 7: EV Charging -->
+        <a href="/blog/category/ev-charging" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-charging-station text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">EV Charging</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">EV charging guides, installation tips, and infrastructure</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">3 articles →</span>
+        </a>
+
+        <!-- Category 8: Colombo Electrical Issues -->
+        <a href="/blog/category/colombo-electrical" class="bg-slate-50 dark:bg-slate-800/30 p-5 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-lg flex items-center justify-center"><i class="fas fa-map-marker-alt text-accent-orange"></i></div>
+            <h3 class="font-bold text-primary dark:text-white">Colombo Issues</h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Local challenges, monsoon preparedness, area-specific advice</p>
+          <span class="text-xs text-accent-orange mt-2 inline-block">9 articles →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: FEATURED POSTS SECTION ========== -->
+    <section class="py-8 md:py-12" aria-labelledby="featured-heading">
+      <div class="flex items-center justify-between mb-6">
+        <h2 id="featured-heading" class="text-2xl md:text-3xl font-black text-primary dark:text-white">Featured Articles</h2>
+        <a href="/blog/featured" class="text-accent-orange hover:underline text-sm font-medium">View all featured →</a>
+      </div>
+      <p class="text-lg text-slate-600 dark:text-slate-400 mb-8">Our most important guides and timely electrical advice for Colombo property owners.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Featured Post 1: Monsoon Electrical Safety -->
+        <a href="/blog/monsoon-electrical-safety" class="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden blog-card">
+          <div class="h-48 placeholder-img">
+            <i class="fas fa-cloud-rain"></i>
+            <span class="absolute bottom-2 right-2 text-xs bg-black/30 px-2 py-1 rounded">Monsoon Safety</span>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="category-tag bg-accent-orange/10 text-accent-orange">Colombo Electrical Issues</span>
+              <span class="badge">Essential Reading</span>
+            </div>
+            <h3 class="font-bold text-xl text-primary dark:text-white mb-2">Monsoon Electrical Safety Guide</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Protect your home during Colombo's heavy rain season with these essential electrical safety tips. Learn how to prevent flood damage, identify hazards, and respond to emergencies.</p>
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span>March 15, 2026</span>
+              <span>8 min read</span>
+            </div>
+            <span class="inline-block mt-3 text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+          </div>
+        </a>
+
+        <!-- Featured Post 2: Complete Guide to Solar Power -->
+        <a href="/blog/complete-guide-solar-power-sri-lanka" class="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden blog-card">
+          <div class="h-48 placeholder-img">
+            <i class="fas fa-solar-panel"></i>
+            <span class="absolute bottom-2 right-2 text-xs bg-black/30 px-2 py-1 rounded">Solar Guide</span>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="category-tag bg-accent-orange/10 text-accent-orange">Solar Power</span>
+              <span class="badge">Popular</span>
+            </div>
+            <h3 class="font-bold text-xl text-primary dark:text-white mb-2">Complete Guide to Solar Power in Sri Lanka</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Everything you need to know about installing solar panels in Colombo: costs, savings, net metering, CEB requirements, and choosing the right system for your property.</p>
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span>February 28, 2026</span>
+              <span>12 min read</span>
+            </div>
+            <span class="inline-block mt-3 text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+          </div>
+        </a>
+
+        <!-- Featured Post 3: EV Charging at Home -->
+        <a href="/blog/ev-charging-home-guide-colombo" class="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden blog-card">
+          <div class="h-48 placeholder-img">
+            <i class="fas fa-charging-station"></i>
+            <span class="absolute bottom-2 right-2 text-xs bg-black/30 px-2 py-1 rounded">EV Guide</span>
+          </div>
+          <div class="p-5">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="category-tag bg-accent-orange/10 text-accent-orange">EV Charging</span>
+              <span class="badge">New</span>
+            </div>
+            <h3 class="font-bold text-xl text-primary dark:text-white mb-2">EV Charging at Home: What Colombo Residents Need to Know</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Installing an EV charger at home? Learn about electrical requirements, costs, load management, and how to prepare your property for electric vehicle charging.</p>
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span>March 10, 2026</span>
+              <span>10 min read</span>
+            </div>
+            <span class="inline-block mt-3 text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 4: RECENT POSTS GRID ========== -->
+    <section class="py-8 md:py-12" aria-labelledby="recent-heading">
+      <div class="flex items-center justify-between mb-6">
+        <h2 id="recent-heading" class="text-2xl md:text-3xl font-black text-primary dark:text-white">Latest Articles</h2>
+        <a href="/blog/archive" class="text-accent-orange hover:underline text-sm font-medium">View all posts →</a>
+      </div>
+      <p class="text-lg text-slate-600 dark:text-slate-400 mb-8">Fresh electrical advice, safety tips, and industry insights updated regularly.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Post 1 -->
+        <a href="/blog/choosing-licensed-electrician-colombo" class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 blog-card">
+          <div class="h-32 mb-4 placeholder-img rounded-lg overflow-hidden">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <span class="category-tag bg-accent-orange/10 text-accent-orange mb-3 inline-block">Electrical Safety</span>
+          <h3 class="font-bold text-lg text-primary dark:text-white mb-2">How to Choose a Licensed Electrician in Colombo</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Not all electricians are created equal. Learn what certifications to look for, questions to ask, and red flags to avoid when hiring electrical services in Sri Lanka.</p>
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <span>March 5, 2026</span>
+            <span>6 min read</span>
+          </div>
+          <span class="text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+        </a>
+
+        <!-- Post 2 -->
+        <a href="/blog/signs-home-needs-rewiring" class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 blog-card">
+          <div class="h-32 mb-4 placeholder-img rounded-lg overflow-hidden">
+            <i class="fas fa-home"></i>
+          </div>
+          <span class="category-tag bg-accent-orange/10 text-accent-orange mb-3 inline-block">Electrical Safety</span>
+          <h3 class="font-bold text-lg text-primary dark:text-white mb-2">5 Signs Your Home Needs Rewiring</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Older Colombo homes often have outdated wiring. Discover the warning signs that indicate your property needs professional rewiring to prevent hazards.</p>
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <span>February 20, 2026</span>
+            <span>7 min read</span>
+          </div>
+          <span class="text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+        </a>
+
+        <!-- Post 3 -->
+        <a href="/blog/understanding-electricity-bill-sri-lanka" class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 blog-card">
+          <div class="h-32 mb-4 placeholder-img rounded-lg overflow-hidden">
+            <i class="fas fa-file-invoice"></i>
+          </div>
+          <span class="category-tag bg-accent-orange/10 text-accent-orange mb-3 inline-block">Energy Efficiency</span>
+          <h3 class="font-bold text-lg text-primary dark:text-white mb-2">Understanding Your Electricity Bill: How to Reduce Costs</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Decode your CEB bill and learn practical strategies to reduce monthly electricity costs through efficient usage and smart upgrades.</p>
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <span>February 12, 2026</span>
+            <span>8 min read</span>
+          </div>
+          <span class="text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+        </a>
+
+        <!-- Post 4 -->
+        <a href="/blog/smart-home-automation-getting-started" class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 blog-card">
+          <div class="h-32 mb-4 placeholder-img rounded-lg overflow-hidden">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <span class="category-tag bg-accent-orange/10 text-accent-orange mb-3 inline-block">Smart Home Technology</span>
+          <h3 class="font-bold text-lg text-primary dark:text-white mb-2">Smart Home Automation: Getting Started Guide</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">New to smart home technology? This beginner's guide covers essential devices, compatibility, installation basics, and how to start automating your Colombo home.</p>
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <span>February 5, 2026</span>
+            <span>9 min read</span>
+          </div>
+          <span class="text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+        </a>
+
+        <!-- Post 5 -->
+        <a href="/blog/commercial-electrical-maintenance-guide" class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 blog-card">
+          <div class="h-32 mb-4 placeholder-img rounded-lg overflow-hidden">
+            <i class="fas fa-building"></i>
+          </div>
+          <span class="category-tag bg-accent-orange/10 text-accent-orange mb-3 inline-block">Commercial Electrical</span>
+          <h3 class="font-bold text-lg text-primary dark:text-white mb-2">Commercial Electrical Maintenance: Why Preventive Care Matters</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Prevent costly downtime and safety hazards with regular electrical maintenance. Learn what Colombo businesses should include in their preventive maintenance programs.</p>
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <span>January 28, 2026</span>
+            <span>7 min read</span>
+          </div>
+          <span class="text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+        </a>
+
+        <!-- Post 6 -->
+        <a href="/blog/surge-protection-guide-colombo" class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 blog-card">
+          <div class="h-32 mb-4 placeholder-img rounded-lg overflow-hidden">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <span class="category-tag bg-accent-orange/10 text-accent-orange mb-3 inline-block">Electrical Safety</span>
+          <h3 class="font-bold text-lg text-primary dark:text-white mb-2">Surge Protection: Protecting Your Electronics in Colombo</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">Power surges can destroy expensive electronics. Discover how whole-home surge protection works and why it is essential for Colombo properties.</p>
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <span>January 20, 2026</span>
+            <span>6 min read</span>
+          </div>
+          <span class="text-accent-orange text-sm font-medium hover:underline">Read more →</span>
+        </a>
+      </div>
+
+      <div class="text-center mt-8">
+        <a href="/blog/archive" class="inline-flex items-center gap-2 bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-3 px-8 rounded-xl transition">View All Articles</a>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 5: CATEGORY-BASED POST LISTINGS ========== -->
+    <section class="py-8 md:py-12" aria-labelledby="category-listing-heading">
+      <h2 id="category-listing-heading" class="text-2xl md:text-3xl font-black mb-4 text-primary dark:text-white">Browse by Category</h2>
+      <p class="text-lg text-slate-600 dark:text-slate-400 mb-8">Find articles specific to your electrical needs and interests.</p>
+
+      <!-- Electrical Safety Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">Electrical Safety</h3>
+          <span class="text-sm text-slate-500">12 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Essential tips to keep your home and family safe from electrical hazards</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="/blog/choosing-licensed-electrician-colombo" class="text-accent-orange hover:underline">How to Choose a Licensed Electrician in Colombo</a></li>
+          <li><a href="/blog/signs-home-needs-rewiring" class="text-accent-orange hover:underline">5 Signs Your Home Needs Rewiring</a></li>
+          <li><a href="/blog/surge-protection-guide-colombo" class="text-accent-orange hover:underline">Surge Protection: Protecting Your Electronics in Colombo</a></li>
+        </ul>
+        <a href="/blog/category/electrical-safety" class="text-accent-orange font-medium hover:underline text-sm">View all Electrical Safety articles →</a>
+      </div>
+
+      <!-- Energy Efficiency Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">Energy Efficiency</h3>
+          <span class="text-sm text-slate-500">8 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Reduce bills, save energy, and optimize electrical usage</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="/blog/understanding-electricity-bill-sri-lanka" class="text-accent-orange hover:underline">Understanding Your Electricity Bill: How to Reduce Costs</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">LED vs Traditional Bulbs: Cost Comparison</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Home Energy Audit: DIY Checklist</a></li>
+        </ul>
+        <a href="/blog/category/energy-efficiency" class="text-accent-orange font-medium hover:underline text-sm">View all Energy Efficiency articles →</a>
+      </div>
+
+      <!-- Solar Power Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">Solar Power</h3>
+          <span class="text-sm text-slate-500">6 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Solar installation guides, net metering, and renewable energy tips</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="/blog/complete-guide-solar-power-sri-lanka" class="text-accent-orange hover:underline">Complete Guide to Solar Power in Sri Lanka</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Battery Storage Systems: Are They Worth It?</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Understanding CEB Net Metering for Colombo Properties</a></li>
+        </ul>
+        <a href="/blog/category/solar-power" class="text-accent-orange font-medium hover:underline text-sm">View all Solar Power articles →</a>
+      </div>
+
+      <!-- Smart Home Technology Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">Smart Home Technology</h3>
+          <span class="text-sm text-slate-500">5 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Home automation, smart devices, and modern electrical solutions</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="/blog/smart-home-automation-getting-started" class="text-accent-orange hover:underline">Smart Home Automation: Getting Started Guide</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">How to Install a Smart Switch: Step-by-Step Guide</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">What is Matter? The New Smart Home Standard Explained</a></li>
+        </ul>
+        <a href="/blog/category/smart-home" class="text-accent-orange font-medium hover:underline text-sm">View all Smart Home articles →</a>
+      </div>
+
+      <!-- Commercial Electrical Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">Commercial Electrical</h3>
+          <span class="text-sm text-slate-500">7 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Business electrical solutions, compliance, and maintenance</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="/blog/commercial-electrical-maintenance-guide" class="text-accent-orange hover:underline">Commercial Electrical Maintenance: Why Preventive Care Matters</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Commercial Electrical Load Calculations</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Restaurant Electrical Requirements: Kitchen Power and Safety</a></li>
+        </ul>
+        <a href="/blog/category/commercial-electrical" class="text-accent-orange font-medium hover:underline text-sm">View all Commercial articles →</a>
+      </div>
+
+      <!-- Emergency Preparedness Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">Emergency Preparedness</h3>
+          <span class="text-sm text-slate-500">4 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">What to do during electrical emergencies, outages, and storms</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="#" class="text-accent-orange hover:underline">What to Do During a Power Outage: Safety Guide</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Electrical Fire Prevention: 10 Essential Tips</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">When to Call an Emergency Electrician vs DIY</a></li>
+        </ul>
+        <a href="/blog/category/emergency-preparedness" class="text-accent-orange font-medium hover:underline text-sm">View all Emergency articles →</a>
+      </div>
+
+      <!-- EV Charging Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">EV Charging</h3>
+          <span class="text-sm text-slate-500">3 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Electric vehicle charging guides, installation tips, and EV infrastructure</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="/blog/ev-charging-home-guide-colombo" class="text-accent-orange hover:underline">EV Charging at Home: What Colombo Residents Need to Know</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">How to Prepare Your Home for EV Charging Installation</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">The Future of EV Charging in Sri Lanka</a></li>
+        </ul>
+        <a href="/blog/category/ev-charging" class="text-accent-orange font-medium hover:underline text-sm">View all EV Charging articles →</a>
+      </div>
+
+      <!-- Colombo Electrical Issues Category Block -->
+      <div class="mb-10 bg-slate-50 dark:bg-slate-800/30 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between mb-3">
+          <h3 class="text-xl font-bold text-primary dark:text-white">Colombo Electrical Issues</h3>
+          <span class="text-sm text-slate-500">9 articles</span>
+        </div>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Local electrical challenges, monsoon preparedness, and area-specific advice</p>
+        <ul class="space-y-2 mb-4">
+          <li><a href="/blog/monsoon-electrical-safety" class="text-accent-orange hover:underline">Monsoon Electrical Safety Guide</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Electrical Challenges in Colombo Heritage Buildings</a></li>
+          <li><a href="#" class="text-accent-orange hover:underline">Load-Shedding Protection: Best Solutions for Colombo Homes</a></li>
+        </ul>
+        <a href="/blog/category/colombo-electrical" class="text-accent-orange font-medium hover:underline text-sm">View all Colombo Issues articles →</a>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 6: EMAIL NEWSLETTER SIGNUP ========== -->
+    <section class="py-8 md:py-12 bg-primary-deep circuit-pattern text-white rounded-2xl my-8" aria-labelledby="newsletter-heading">
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 id="newsletter-heading" class="text-2xl md:text-3xl font-black mb-4 text-center">Get Electrical Tips Delivered to Your Inbox</h2>
+        <p class="text-lg text-slate-300 mb-8 text-center">Subscribe to our monthly newsletter for exclusive electrical safety tips, energy-saving strategies, seasonal preparedness guides, and special offers.</p>
+
+        <!-- UPDATED: FormSubmit configuration with AJAX -->
+        <form id="newsletter-form" class="space-y-4">
+          <!-- FormSubmit AJAX endpoint -->
+          <input type="hidden" id="form-action" value="https://formsubmit.co/ajax/cform67electric@six7.lk">
+          <input type="hidden" name="_subject" value="New Blog Newsletter Subscription - Six7 Electrical">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <!-- Honeypot field -->
+          <input type="text" name="_honey" style="display:none">
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="email" id="newsletter-email" name="Email" placeholder="Your Email Address *" required class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+            <input type="text" id="newsletter-name" name="Name" placeholder="Your Name (optional)" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-accent-orange">
+          </div>
+
+          <div>
+            <p class="text-sm text-slate-300 mb-2">Property Type:</p>
+            <div class="flex flex-wrap gap-4">
+              <label class="flex items-center gap-2 text-sm">
+                <input type="radio" name="Property Type" value="Homeowner" class="text-accent-orange focus:ring-accent-orange"> Homeowner
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="radio" name="Property Type" value="Business Owner" class="text-accent-orange focus:ring-accent-orange"> Business Owner
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="radio" name="Property Type" value="Property Manager" class="text-accent-orange focus:ring-accent-orange"> Property Manager
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="radio" name="Property Type" value="Other" class="text-accent-orange focus:ring-accent-orange"> Other
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <p class="text-sm text-slate-300 mb-2">I'm interested in:</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+              <label class="flex items-center gap-2 text-sm">
+                <input type="checkbox" name="Interest" value="Safety" class="text-accent-orange focus:ring-accent-orange"> Safety
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="checkbox" name="Interest" value="Energy Efficiency" class="text-accent-orange focus:ring-accent-orange"> Energy Efficiency
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="checkbox" name="Interest" value="Solar Power" class="text-accent-orange focus:ring-accent-orange"> Solar Power
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="checkbox" name="Interest" value="Smart Home" class="text-accent-orange focus:ring-accent-orange"> Smart Home
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="checkbox" name="Interest" value="Commercial" class="text-accent-orange focus:ring-accent-orange"> Commercial
+              </label>
+              <label class="flex items-center gap-2 text-sm">
+                <input type="checkbox" name="Interest" value="EV Charging" class="text-accent-orange focus:ring-accent-orange"> EV Charging
+              </label>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <input type="checkbox" id="privacy-consent" name="Consent" value="Yes" required class="mt-1 text-accent-orange focus:ring-accent-orange">
+            <label for="privacy-consent" class="text-sm text-slate-300">
+              I agree to receive emails and accept the <a href="https://electrical.six7.lk/privacy" class="text-accent-orange hover:underline">Privacy Policy</a>.
+            </label>
+          </div>
+
+          <button type="submit" id="newsletter-submit" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-3 px-6 rounded-xl text-lg transition shadow-lg shadow-accent-orange/30 flex items-center justify-center gap-2">
+            <span id="submit-text">Subscribe to Newsletter</span>
+            <span id="submit-spinner" class="hidden"><span class="spinner"></span></span>
+          </button>
+        </form>
+
+        <p class="text-xs text-slate-400 text-center mt-4">We respect your privacy. Unsubscribe at any time. No spam, ever.</p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 7: POPULAR TOPICS TAGS ========== -->
+    <section class="py-8 md:py-12" aria-labelledby="tags-heading">
+      <h2 id="tags-heading" class="text-2xl md:text-3xl font-black mb-4 text-primary dark:text-white">Popular Topics</h2>
+      <p class="text-lg text-slate-600 dark:text-slate-400 mb-8">Click any topic to search for related articles.</p>
+
+      <div class="flex flex-wrap gap-2" id="tag-cloud">
+        <!-- High Priority Tags (Large) - Now clickable for search -->
+        <span class="tag-cloud-item text-base font-bold bg-accent-orange text-white hover:bg-primary cursor-pointer" data-search="electrical safety">Electrical Safety</span>
+        <span class="tag-cloud-item text-base font-bold bg-accent-orange text-white hover:bg-primary cursor-pointer" data-search="solar installation">Solar Installation</span>
+        <span class="tag-cloud-item text-base font-bold bg-accent-orange text-white hover:bg-primary cursor-pointer" data-search="energy savings">Energy Savings</span>
+        <span class="tag-cloud-item text-base font-bold bg-accent-orange text-white hover:bg-primary cursor-pointer" data-search="emergency preparedness">Emergency Preparedness</span>
+        <span class="tag-cloud-item text-base font-bold bg-accent-orange text-white hover:bg-primary cursor-pointer" data-search="colombo electrician">Colombo Electrician</span>
+        <span class="tag-cloud-item text-base font-bold bg-accent-orange text-white hover:bg-primary cursor-pointer" data-search="home rewiring">Home Rewiring</span>
+
+        <!-- Medium Priority Tags -->
+        <span class="tag-cloud-item cursor-pointer" data-search="ev charging">EV Charging</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="smart home">Smart Home</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="commercial electrical">Commercial Electrical</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="surge protection">Surge Protection</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="gfci outlets">GFCI Outlets</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="circuit breakers">Circuit Breakers</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="monsoon safety">Monsoon Safety</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="led lighting">LED Lighting</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="net metering">Net Metering</span>
+        <span class="tag-cloud-item cursor-pointer" data-search="load management">Load Management</span>
+
+        <!-- Lower Priority Tags (Small) -->
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="wiring standards">Wiring Standards</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="electrical permits">Electrical Permits</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="power outages">Power Outages</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="battery backup">Battery Backup</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="home automation">Home Automation</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="electrical inspection">Electrical Inspection</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="ceb guidelines">CEB Guidelines</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="heritage buildings">Heritage Buildings</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="three phase power">Three-Phase Power</span>
+        <span class="tag-cloud-item text-sm cursor-pointer" data-search="preventive maintenance">Preventive Maintenance</span>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 8: FINAL CTA SECTION ========== -->
+    <section class="py-12 md:py-16 bg-primary-deep circuit-pattern text-white rounded-2xl mt-8" aria-labelledby="final-cta-heading">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 id="final-cta-heading" class="text-3xl md:text-4xl font-black mb-6">Need Professional Electrical Help?</h2>
+        <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+          Our blog provides helpful information, but some electrical work requires licensed expertise. For emergencies, installations, or complex electrical projects in Colombo, trust Six7 Electrical.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+          <a href="tel:+94758244216" class="bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-accent-orange/30 transition-all">
+            <i class="fas fa-phone-alt"></i> Call for Emergency: +94 75 824 4216
+          </a>
+          <a href="https://electrical.six7.lk/booking" class="bg-white hover:bg-slate-50 text-primary font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center gap-3 shadow-lg shadow-black/10 transition-all">
+            <i class="fas fa-calendar-check"></i> Book a Service Online
+          </a>
+        </div>
+        <p class="text-slate-400 text-sm">
+          <a href="https://electrical.six7.lk/contact" class="text-accent-orange hover:underline">Contact Us for Questions →</a>
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 mt-8 text-sm text-slate-400">
+          <span class="flex items-center gap-2"><i class="fas fa-clock text-accent-orange"></i> 24/7 Emergency Response</span>
+          <span class="flex items-center gap-2"><i class="fas fa-id-card text-accent-orange"></i> Licensed & Insured</span>
+          <span class="flex items-center gap-2"><i class="fas fa-shield-alt text-accent-orange"></i> 90-Day Guarantee</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== NEWSLETTER SUCCESS MODAL ========== -->
+  <div id="newsletterModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/50 backdrop-blur-sm" style="display: none;">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-700">
+      <div class="text-center mb-4">
+        <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <i class="fas fa-check-circle text-green-600 text-4xl"></i>
+        </div>
+        <h3 class="text-2xl font-bold text-primary dark:text-white mb-2">Successfully Subscribed!</h3>
+        <p class="text-slate-600 dark:text-slate-400 mb-4">Thank you for subscribing to our newsletter. You'll receive electrical tips and exclusive content in your inbox.</p>
+        <p class="text-sm text-slate-500 dark:text-slate-500 mb-4">In the meantime, explore our latest articles or contact us for immediate assistance:</p>
+      </div>
+      
+      <div class="space-y-3 mb-6">
+        <a href="tel:+94758244216" class="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700/50 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-accent-orange/10 rounded-full flex items-center justify-center">
+              <i class="fas fa-phone-alt text-accent-orange"></i>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-primary dark:text-white">Call Us</p>
+              <p class="text-xs text-slate-500">+94 75 824 4216</p>
+            </div>
+          </div>
+          <i class="fas fa-arrow-right text-accent-orange"></i>
+        </a>
+        
+        <a href="https://wa.me/94758244216" class="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700/50 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-whatsapp-green/10 rounded-full flex items-center justify-center">
+              <i class="fab fa-whatsapp text-whatsapp-green"></i>
+            </div>
+            <div class="text-left">
+              <p class="font-bold text-primary dark:text-white">WhatsApp Us</p>
+              <p class="text-xs text-slate-500">wa.me/94758244216</p>
+            </div>
+          </div>
+          <i class="fas fa-arrow-right text-accent-orange"></i>
+        </a>
+      </div>
+      
+      <button onclick="closeNewsletterModal()" class="w-full bg-accent-orange hover:bg-accent-orange/90 text-white font-bold py-3 rounded-xl transition">
+        Browse Articles
+      </button>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-primary text-slate-300 py-12 border-t border-slate-700" role="contentinfo">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-10">
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="size-10 bg-accent-orange rounded-xl flex items-center justify-center text-white"><i class="fas fa-bolt text-2xl"></i></div>
+            <span class="font-black text-xl text-white">Six7 Electrical</span>
+          </div>
+          <p class="text-sm mb-4">Safe. Fast. Reliable. 24/7 emergency electricians and electrical specialists serving Colombo and Western Province since 2018.</p>
+          <a href="https://electrical.six7.lk/" class="text-accent-orange text-sm hover:underline">Six7 Electrical Home →</a>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://electrical.six7.lk/emergency" class="hover:text-accent-orange">Emergency Repairs</a></li>
+            <li><a href="https://electrical.six7.lk/services/wiring" class="hover:text-accent-orange">Residential Wiring</a></li>
+            <li><a href="https://electrical.six7.lk/commercial" class="hover:text-accent-orange">Commercial Electrical</a></li>
+            <li><a href="https://electrical.six7.lk/services/solar" class="hover:text-accent-orange">Solar Power</a></li>
+            <li><a href="https://electrical.six7.lk/services/ev-charging" class="hover:text-accent-orange">EV Charging</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Areas</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://electrical.six7.lk/areas#colombo-01" class="hover:text-accent-orange">Colombo 01-07</a></li>
+            <li><a href="https://electrical.six7.lk/areas#colombo-08" class="hover:text-accent-orange">Colombo 08-15</a></li>
+            <li><a href="https://electrical.six7.lk/areas#rajagiriya" class="hover:text-accent-orange">Rajagiriya</a></li>
+            <li><a href="https://electrical.six7.lk/areas#nugegoda" class="hover:text-accent-orange">Nugegoda</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 uppercase">Company</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://electrical.six7.lk/about" class="hover:text-accent-orange">About Us</a></li>
+            <li><a href="https://electrical.six7.lk/pricing" class="hover:text-accent-orange">Pricing Guide</a></li>
+            <li><a href="https://electrical.six7.lk/reviews" class="hover:text-accent-orange">Reviews</a></li>
+            <li><a href="https://electrical.six7.lk/contact" class="hover:text-accent-orange">Contact</a></li>
+            <li><a href="https://electrical.six7.lk/terms" class="hover:text-accent-orange">Terms</a></li>
+            <li><a href="https://electrical.six7.lk/blog" class="hover:text-accent-orange">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+          <span class="flex items-center gap-2"><i class="fas fa-phone text-accent-orange"></i> <a href="tel:+94758244216" class="hover:text-white">+94 75 824 4216</a></span>
+          <span class="flex items-center gap-2"><i class="fas fa-envelope text-accent-orange"></i> <a href="mailto:electrical@six7.lk" class="hover:text-white">electrical@six7.lk</a></span>
+          <span class="flex items-center gap-2"><i class="fab fa-whatsapp text-accent-orange"></i> <a href="https://wa.me/94758244216" class="hover:text-white">WhatsApp</a></span>
+        </div>
+        <p class="text-center md:text-right"><i class="fas fa-map-marker-alt text-accent-orange mr-1"></i> Colombo, Sri Lanka</p>
+      </div>
+
+      <div class="border-t border-slate-700 mt-6 pt-6 text-center text-xs text-slate-500">
+        <p class="mb-2">
+          <a href="https://electrical.six7.lk/privacy" class="hover:text-slate-300">Privacy Policy</a> • 
+          <a href="https://electrical.six7.lk/terms" class="hover:text-slate-300">Terms of Service</a> • 
+          <a href="https://electrical.six7.lk/sitemap" class="hover:text-slate-300">Sitemap</a>
+        </p>
+        <p>© 2026 Six7 Electrical Sri Lanka. All rights reserved.<br>Licensed Electrical Contractor | VAT Reg. No: [XXXX]</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- sticky mobile CTA -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 p-3 bg-white/95 dark:bg-primary-deep/95 backdrop-blur border-t border-slate-200 dark:border-slate-800 flex gap-3 md:hidden">
+    <a href="tel:+94758244216" class="flex-1 bg-accent-orange text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fas fa-phone-alt text-base"></i> Call</a>
+    <a href="https://wa.me/94758244216" class="flex-1 bg-whatsapp-green text-white py-3.5 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-lg"><i class="fab fa-whatsapp text-base"></i> WhatsApp</a>
+  </div>
+
+  <script>
+    const menuBtn = document.getElementById('menuToggleBtn'), closeBtn = document.getElementById('closeDrawerBtn'), drawer = document.getElementById('mobile-menu-drawer');
+    if (menuBtn && closeBtn && drawer) {
+      menuBtn.addEventListener('click', () => drawer.classList.add('open'));
+      closeBtn.addEventListener('click', () => drawer.classList.remove('open'));
+      drawer.addEventListener('click', (e) => { if (e.target === drawer) drawer.classList.remove('open'); });
+    }
+
+    // ========== BLOG POST SEARCH INDEX ==========
+    const blogPosts = [
+      {
+        title: "Monsoon Electrical Safety Guide",
+        url: "/blog/monsoon-electrical-safety",
+        category: "Colombo Electrical Issues",
+        excerpt: "Protect your home during Colombo's heavy rain season with these essential electrical safety tips.",
+        keywords: "monsoon rain flood water damage safety"
+      },
+      {
+        title: "Complete Guide to Solar Power in Sri Lanka",
+        url: "/blog/complete-guide-solar-power-sri-lanka",
+        category: "Solar Power",
+        excerpt: "Everything you need to know about installing solar panels in Colombo.",
+        keywords: "solar panels net metering ceb renewable energy"
+      },
+      {
+        title: "EV Charging at Home: What Colombo Residents Need to Know",
+        url: "/blog/ev-charging-home-guide-colombo",
+        category: "EV Charging",
+        excerpt: "Installing an EV charger at home? Learn about electrical requirements, costs, and load management.",
+        keywords: "ev charging electric vehicle charger tesla"
+      },
+      {
+        title: "How to Choose a Licensed Electrician in Colombo",
+        url: "/blog/choosing-licensed-electrician-colombo",
+        category: "Electrical Safety",
+        excerpt: "Learn what certifications to look for, questions to ask, and red flags to avoid.",
+        keywords: "electrician license certified qualifications"
+      },
+      {
+        title: "5 Signs Your Home Needs Rewiring",
+        url: "/blog/signs-home-needs-rewiring",
+        category: "Electrical Safety",
+        excerpt: "Discover the warning signs that indicate your property needs professional rewiring.",
+        keywords: "rewiring old wiring electrical hazards"
+      },
+      {
+        title: "Understanding Your Electricity Bill: How to Reduce Costs",
+        url: "/blog/understanding-electricity-bill-sri-lanka",
+        category: "Energy Efficiency",
+        excerpt: "Decode your CEB bill and learn practical strategies to reduce monthly electricity costs.",
+        keywords: "ceb bill electricity cost savings efficiency"
+      },
+      {
+        title: "Smart Home Automation: Getting Started Guide",
+        url: "/blog/smart-home-automation-getting-started",
+        category: "Smart Home Technology",
+        excerpt: "Beginner's guide covering essential devices, compatibility, and installation basics.",
+        keywords: "smart home automation alexa google home"
+      },
+      {
+        title: "Commercial Electrical Maintenance: Why Preventive Care Matters",
+        url: "/blog/commercial-electrical-maintenance-guide",
+        category: "Commercial Electrical",
+        excerpt: "Prevent costly downtime and safety hazards with regular electrical maintenance.",
+        keywords: "commercial business maintenance preventive"
+      },
+      {
+        title: "Surge Protection: Protecting Your Electronics in Colombo",
+        url: "/blog/surge-protection-guide-colombo",
+        category: "Electrical Safety",
+        excerpt: "Discover how whole-home surge protection works and why it's essential.",
+        keywords: "surge protection lightning power spike"
+      }
+    ];
+
+    // ========== SEARCH FUNCTIONALITY ==========
+    const searchInput = document.getElementById('blog-search');
+    const searchButton = document.getElementById('search-button');
+    const searchResults = document.getElementById('search-results');
+    const searchContainer = document.getElementById('search-container');
+
+    function performSearch() {
+      const query = searchInput.value.toLowerCase().trim();
+      
+      if (query.length < 2) {
+        searchResults.classList.add('hidden');
+        return;
+      }
+      
+      const results = blogPosts.filter(post => 
+        post.title.toLowerCase().includes(query) ||
+        post.category.toLowerCase().includes(query) ||
+        post.excerpt.toLowerCase().includes(query) ||
+        post.keywords.toLowerCase().includes(query)
+      );
+      
+      if (results.length === 0) {
+        searchResults.innerHTML = `
+          <div class="p-6 text-center">
+            <i class="fas fa-search text-4xl text-slate-300 mb-3"></i>
+            <p class="text-slate-600 dark:text-slate-400 font-medium">No articles found matching "${query}"</p>
+            <p class="text-sm text-slate-500 mt-2">Try different keywords or <a href="/contact" class="text-accent-orange hover:underline">contact us</a> for help</p>
+          </div>
+        `;
+        searchResults.classList.remove('hidden');
+        return;
+      }
+      
+      let resultsHTML = '<div class="p-2">';
+      results.slice(0, 5).forEach(post => {
+        resultsHTML += `
+          <a href="${post.url}" class="block p-3 hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg transition">
+            <div class="flex items-start gap-3">
+              <div class="w-8 h-8 bg-accent-orange/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-file-alt text-accent-orange text-sm"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-primary dark:text-white text-sm">${post.title}</h4>
+                <p class="text-xs text-slate-500 mt-1"><span class="category-tag bg-accent-orange/10 text-accent-orange text-[10px] mr-2">${post.category}</span>${post.excerpt.substring(0, 60)}...</p>
+              </div>
+            </div>
+          </a>
+        `;
+      });
+      
+      if (results.length > 5) {
+        resultsHTML += `
+          <div class="p-3 text-center border-t border-slate-100 dark:border-slate-700">
+            <span class="text-accent-orange text-sm font-medium cursor-pointer hover:underline" onclick="showAllSearchResults('${query}')">
+              View all ${results.length} results →
+            </span>
+          </div>
+        `;
+      }
+      
+      resultsHTML += '</div>';
+      searchResults.innerHTML = resultsHTML;
+      searchResults.classList.remove('hidden');
+    }
+
+    function showAllSearchResults(query) {
+      // In a real implementation, this would navigate to a search results page
+      // For now, we'll just show a message
+      alert(`Showing all results for "${query}" - This would navigate to a search results page.`);
+      searchResults.classList.add('hidden');
+    }
+
+    // Event listeners for search
+    if (searchInput && searchButton && searchResults) {
+      searchInput.addEventListener('input', performSearch);
+      searchButton.addEventListener('click', performSearch);
+
+      // Close results when clicking outside
+      document.addEventListener('click', (e) => {
+        if (searchContainer && !searchContainer.contains(e.target)) {
+          searchResults.classList.add('hidden');
+        }
+      });
+
+      // Handle enter key
+      searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          performSearch();
+        }
+      });
+    }
+
+    // ========== TAG CLOUD SEARCH ==========
+    document.querySelectorAll('.tag-cloud-item').forEach(tag => {
+      tag.addEventListener('click', function() {
+        const searchTerm = this.getAttribute('data-search');
+        if (searchInput) {
+          searchInput.value = searchTerm;
+          performSearch();
+          // Scroll to search bar
+          searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          searchInput.focus();
+        }
+      });
+    });
+
+    // ========== NEWSLETTER MODAL FUNCTIONS ==========
+    function showNewsletterModal() {
+      document.getElementById('newsletterModal').style.display = 'flex';
+      document.body.classList.add('modal-open');
+    }
+
+    function closeNewsletterModal() {
+      document.getElementById('newsletterModal').style.display = 'none';
+      document.body.classList.remove('modal-open');
+    }
+
+    // ========== NEWSLETTER FORM SUBMISSION ==========
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterSubmit = document.getElementById('newsletter-submit');
+    const submitText = document.getElementById('submit-text');
+    const submitSpinner = document.getElementById('submit-spinner');
+
+    if (newsletterForm) {
+      newsletterForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Show loading state
+        submitText.textContent = 'Subscribing...';
+        submitSpinner.classList.remove('hidden');
+        newsletterSubmit.disabled = true;
+        
+        // Collect form data
+        const formData = new FormData(newsletterForm);
+        
+        // Get the AJAX endpoint
+        const action = document.getElementById('form-action').value;
+        
+        // Send with fetch API
+        fetch(action, {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.success) {
+            // Reset form
+            newsletterForm.reset();
+            // Show success modal
+            showNewsletterModal();
+          } else {
+            alert('There was an error subscribing. Please try again or contact us directly.');
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('There was an error subscribing. Please try again or contact us directly.');
+        })
+        .finally(() => {
+          // Reset button state
+          submitText.textContent = 'Subscribe to Newsletter';
+          submitSpinner.classList.add('hidden');
+          newsletterSubmit.disabled = false;
+        });
+      });
+    }
+
+    // Close modal when clicking outside
+    window.addEventListener('click', function(e) {
+      const modal = document.getElementById('newsletterModal');
+      if (e.target === modal) {
+        closeNewsletterModal();
+      }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeNewsletterModal();
+      }
+    });
+  </script>
+</body>
+</html>
